@@ -1,0 +1,22 @@
+
+.divspatiu {
+    height: 50px;
+}
+
+#imgrezultat{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.hidden {
+display: none;
+}
+
+.bord{
+	border: 5px groove gray;
+}
+
+.divrez{
+	padding: 90px;
+}
