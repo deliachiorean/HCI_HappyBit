@@ -4,6 +4,12 @@ var myScore;
 var restart=false;
 var icon="sources/bear-icon.png";
 
+$( document ).ready(function() {
+    startGame();
+});
+
+window.onresize = function(){ restartGame(); }
+
 function restartGame(){
     myGameArea.clear();
     myObstacles = [];
@@ -22,10 +28,12 @@ function startGame() {
 var myGameArea = {
     canvas : document.createElement("canvas"),
     start : function() {
-        this.canvas.width = 800;
-        this.canvas.height = 400;
+        var canvasContainer = document.getElementById("game-row");
+
+        this.canvas.width = canvasContainer.clientWidth-40;
+        this.canvas.height = 500;
         this.context = this.canvas.getContext("2d");
-        $( ".game" ).append( this.canvas );
+        $( "#game" ).append( this.canvas );
         this.frameNo = 0;
         if(!restart)
             this.interval = setInterval(updateGameArea, 20);
@@ -139,3 +147,22 @@ function changeAnimal(name){
     icon = name;
     restartGame();
 }
+
+
+$(document).keydown(function(event) {
+    // on up arrow or space game logic
+    if (event.keyCode === 38 || event.keyCode ===32 ) {
+        accelerate(-0.2); 
+    }
+    //on enter -replay
+    if (event.keyCode === 13 ) {
+        restartGame();
+    }
+});
+
+$(document).keyup(function(event) {
+     // on up arrow or space game logic
+    if (event.keyCode === 38 || event.keyCode ===32 ) {
+        accelerate(0.05);
+    }
+});
