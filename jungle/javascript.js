@@ -23,8 +23,7 @@ function Game() {
 
 		this.help = new Casuta();
 		this.addCellActions(this.table, this.help.loadTable, this.state);
-		this.help.loadTable(this.table);
-	
+        this.help.loadTable(this.table);
 	}
 
 	this.generateNewTable = function() {
@@ -67,7 +66,8 @@ function Game() {
 
 	this.addCellActions = function(table, loadTable, state) {
         var tds = document.querySelectorAll("td");
-        var count=0;
+        console.log(tds);
+        var pairs=0;
 		for (var i = 0; i < tds.length; i++) {
 			tds[i].onclick = function() {
 				if (!state.clickDisabled) {
@@ -104,21 +104,23 @@ function Game() {
 								//marcam perechea ca gasita
 								table[state.lastPos.x][state.lastPos.y].found = true;
                                 table[x][y].found = true;
-                                count++;
-							}
+                                pairs++;
+                            }
 							
-							state.isRevealing = false;
+                            state.isRevealing = false;
+                            
 						}
 						
 					}
 					
 					loadTable(table);
-				}
-			}
+                }
+                
+            }
+            
         }
-        if(count==8){
-            alert("You won");
-        }
+        
+        
 	}
 
 	this.disableActions = function() {
@@ -143,8 +145,8 @@ function Casuta() {
 				}
 				if (table[i][j].revealed) {
 					console.log("url(\"./animale/card\"" + table[i][j].value + ")");
-					tds[tdIndex].style.backgroundImage = "url(\"animale/card" + table[i][j].value + ".jpg\")";
-					tds[tdIndex].style.backgroundColor = "transparent";
+                    tds[tdIndex].style.backgroundImage = "url(\"animale/card" + table[i][j].value + ".jpg\")";
+                    tds[tdIndex].style.backgroundColor = "transparent";
                     tds[tdIndex].innerText = "";
                     
                     
