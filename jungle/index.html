@@ -13,7 +13,7 @@
         <h1>Jungla</h1>
         <h2>Sa gasim perechile de animale din casute</h2>
     </div>
-   
+   <div>
     <table>
         <tr>
             <td>1</td>
@@ -47,11 +47,119 @@
         </tr>
     
     </table>
-    
-    
+    </div>
+    <br><br><br>
+    <div class="jumbotron text-center">
+            <h2>Sa aflam mai multe </h2>
+    <div style="text-align:center"> 
+            <button onclick="playPause()">Play/Pause<br><img src="playPause.png" class="playpause"></button> 
+            <button onclick="makeBig()">Big<br><img src="bigscreen.jpg" class="controls"></button>
+            <button onclick="makeSmall()">Small<br><img src="smallscreen.png" class="controls"></button>
+            <button onclick="makeNormal()">Normal<br><img src="normalscreen.png" class="controls"></button>
+            <br><br>
+            <video id="video1" width="600">
+              <source src="animaleJungla.mp4" type="video/mp4">
+            </video>
+          </div> 
+          
+          <script> 
+          var myVideo = document.getElementById("video1"); 
+          
+          function playPause() { 
+              if (myVideo.paused) 
+                  myVideo.play(); 
+              else 
+                  myVideo.pause(); 
+          } 
+          
+          function makeBig() { 
+              myVideo.width = 800; 
+          } 
+          
+          function makeSmall() { 
+              myVideo.width = 400; 
+          } 
+          
+          function makeNormal() { 
+              myVideo.width = 600; 
+          } 
+          </script> 
+          </div>
+          <div id="slideshow">
+                <div class="slideitem current">
+                  <img src="animale/card1.jpg">
+                </div>
+                <div class="slideitem">
+                  <img src="animale/card2.jpg">
+                </div>
+                <div class="slideitem">
+                 <img src="animale/card3.jpg">
+                </div>
+                <div class="slideitem">
+                  <img src="animale/card4.jpg">
+                </div>
+                <div class="slideitem">
+                  <img src="animale/card5.jpg">
+                </div>
+                <div class="slideitem">
+                  <img src="animale/card6.jpg">
+                </div>
+                <div class="slideitem">
+                 <img src="animale/card7.jpg">
+                </div>
+                <div class="slideitem">
+                <img src="animale/card8.jpg">
+                </div>
+                <div class="slideitem">
+                <img src="animale/card9.jpg">
+                </div>
+                <div class="slideitem">
+                <img src="animale/card0.jpg">
+                </div>
+                <div class="slideitem">
+                <img src="animale/card11.jpg">
+                </div>
+                <div class="slideitem">
+                <img src="animale/card12.jpg">
+                </div>
+                <div class="slideitem">
+                <img src="animale/card13.jpg">
+                </div>
+                <div class="slideitem">
+                <img src="animale/card14.jpg">
+                </div>
+                <div class="slideitem">
+                <img src="animale/card15.jpg">
+                </div>
+                <div class="slideitem">
+                <img src="animale/card16.jpg">
+                </div>
+                <div class="slideitem">
+                <img src="animale/card17.jpg">
+                </div>
+                <div class="slideitem">
+                <img src="animale/card18.jpg">
+                </div>
+                <div class="slideitem">
+                <img src="animale/card19.jpg">
+                </div>
+                <div class="slideitem">
+                <img src="animale/card20.jpg">
+                </div>
+                <div class="slideitem">
+                <img src="animale/card21.jpg">
+                </div>
+                <div class="slideitem">
+                <img src="animale/card22.jpg">
+                </div>
+                <div class="slideitem">
+                <img src="animale/card23.jpg">
+                </div>
+             </div>
     <script type="text/javascript" src="javascript.js"></script>  
+    <footer></footer>
 </body>
-<footer></footer>
+
 </html>
 
 	

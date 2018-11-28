@@ -1,0 +1,24 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    background-image: url("resource/backgrounds/backgroundMain2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+div{
+    padding: 0;
+    margin: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: 0;
+}
+
+img{
+    border: 5px solid black;
+}
