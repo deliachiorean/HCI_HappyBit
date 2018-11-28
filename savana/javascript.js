@@ -3,7 +3,7 @@ var random_images_array2 = ["elephant.svg", "rino.svg", "cheetah.svg", "croco.sv
 var score=0;
 
 function startGame(){
-	window.location.href = "./index.html";
+	window.location.href = "./game.html";
 }
 
 
