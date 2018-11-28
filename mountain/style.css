@@ -21,6 +21,13 @@ canvas {
     background-size:     cover;
 }
 
+.animal-option-side{
+    height: 128px;
+    padding-bottom: 10px;
+    width: 100%;
+    object-fit: cover; 
+}
+
 .animal-choice-text{
     color:white;
 }
@@ -31,3 +38,10 @@ canvas {
 .container{
     background: rgba(0, 0, 0, 0.5);
 }
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+    
+  }
