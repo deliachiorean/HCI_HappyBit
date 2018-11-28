@@ -1,0 +1,52 @@
+figure {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+	  display : inline-block;
+}
+#succes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 200px;
+	height:200px;
+}
+#header{
+	font-family:verdana;
+	width: 712px;
+    height: 70px;
+	margin-top: 20px;
+	margin-left: 250px;
+	font-weight: bold;
+	background-color:#ECF3F3;
+	text-align: center;
+	font-size:50px;
+}
+#audio{
+	margin-top: 40px;
+	margin-left: 40px;
+	
+	
+}
+#video2{
+	margin-left:40px;
+	border-style: solid;
+	border-width: 2px 10px 4px 20px;
+}
+#video1{
+	border-style: solid;
+	border-width: 2px 10px 4px 20px;
+}
+#start{
+	margin-left: 250px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#heading1{
+	 word-spacing: -.2em;
+}
+body{
+	background-image: url("snowflake.png");
+}

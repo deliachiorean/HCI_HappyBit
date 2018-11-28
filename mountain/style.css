@@ -1,0 +1,47 @@
+body{
+    background-image: url("sources/mountain-background.jpg");
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    /* overflow: hidden; */
+}
+
+canvas {
+    border:1px solid #d3d3d3;
+    background-color: #f1f1f1;
+}
+
+.animal-option{
+    position: relative;
+    float: left;
+    width:  80%;
+    height: 80%;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+.animal-option-side{
+    height: 128px;
+    padding-bottom: 10px;
+    width: 100%;
+    object-fit: cover; 
+}
+
+.animal-choice-text{
+    color:white;
+}
+.description{
+    color:white;
+}
+
+.container{
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+    
+  }

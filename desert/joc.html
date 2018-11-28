@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animale salbatice</title>
+    <link rel="stylesheet" href="../resource/bootstrap/css/bootstrap.min.css">
+    <script src="../resource/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../resource/jquery/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+		  <div class="col-2">
+			<div align="center">
+				<form action="index.html" target="_top">
+				<input type="image" src="pictures/backb.jpg" alt="Buton start joc" width="50" height="50">
+				</form>
+			</div>
+		  </div>
+		  <div class="col-8" align="center">
+			<h1>Câte animale sunt în imagine?</h1>
+		  </div>
+		</div>
+		<div class="divspatiu"></div>
+		<div class="row">
+		  <div class="col-8">
+			<img src="pictures/camila-1.jpg" id="imgjoc" class="rounded bord" alt="Imagine joc" width="700" height="500">
+		  </div>
+		  <div class="col-2" id="divjoc">
+			<audio id="a1">
+				<source src="pictures/1.mp3"></source>
+				Your browser isn't invited for super fun audio time.
+			</audio>
+			<audio id="a2">
+				<source src="pictures/2.mp3"></source>
+				Your browser isn't invited for super fun audio time.
+			</audio>
+			<audio id="a3">
+				<source src="pictures/3.mp3"></source>
+				Your browser isn't invited for super fun audio time.
+			</audio>
+			<audio id="a4">
+				<source src="pictures/4.mp3"></source>
+				Your browser isn't invited for super fun audio time.
+			</audio>
+			<audio id="a5">
+				<source src="pictures/5.mp3"></source>
+				Your browser isn't invited for super fun audio time.
+			</audio>
+			<audio id="bravo">
+				<source src="pictures/bravo.mp3"></source>
+				Your browser isn't invited for super fun audio time.
+			</audio>
+			<audio id="haide">
+				<source src="pictures/haide.mp3"></source>
+				Your browser isn't invited for super fun audio time.
+			</audio>
+			<img src="pictures/1.jpg" class="rounded bord" alt="Cifra 1" width="250" height="100" border="5" onclick="check(1)" onmouseover="cifre(1)" onmouseout="stop(1)">
+			<img src="pictures/2.jpg" class="rounded bord" alt="Cifra 2" width="250" height="100" border="5" onclick="check(2)" onmouseover="cifre(2)" onmouseout="stop(2)">
+			<img src="pictures/3.jpg" class="rounded bord" alt="Cifra 3" width="250" height="100" border="5" onclick="check(3)" onmouseover="cifre(3)" onmouseout="stop(3)">
+			<img src="pictures/4.jpg" class="rounded bord" alt="Cifra 4" width="250" height="100" border="5" onclick="check(4)" onmouseover="cifre(4)" onmouseout="stop(4)">
+			<img src="pictures/5.jpg" class="rounded bord" alt="Cifra 5" width="250" height="100" border="5" onclick="check(5)" onmouseover="cifre(5)" onmouseout="stop(4)">
+		  </div>
+		  <div class="col-2 divrez">
+			<img id="imgrezultat" src="pictures/ok.jpg" class="rounded hidden" alt="Imagine rezultat" width="200" height="200">
+		  </div>
+		</div>
+    </div>  
+	<script type="text/javascript" src="javascriptjoc.js"></script>
+</body>
+</html>

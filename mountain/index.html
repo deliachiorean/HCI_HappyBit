@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animale salbatice</title>
+    <link rel="stylesheet" href="../resource/bootstrap/css/bootstrap.min.css">
+    <script src="../resource/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../resource/jquery/jquery-3.3.1.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body >
+    <div class="container">
+        <br>
+        <div class="row no-gutters">
+            <div class="col-md-2 no-gutters">
+                <div class="col-md-12">
+                    <img src="sources/bear.jpg" alt="bear" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/bear-icon.png')">
+                </div>
+                <div class="col-md-12">
+                    <img src="sources/fox.jpg" alt="bear" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/fox-icon.png')">
+                </div>
+                <div class="col-md-12">
+                    <img src="sources/wolf.jpeg" alt="bear" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/wolf-icon.png')">
+                </div>
+                <div class="col-md-12">
+                    <img src="sources/snow-leopard.jpg" alt="bear" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/snow-leopard-icon.png')">
+                </div>
+            </div>
+
+            <div class="col-md-8 text-center">
+                <div class="row" id="game-row">
+                    <div id="game" class="game col-md-12 text-center">
+                        <!-- canvas will be here -->
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6 text-center" >
+                        <img src="sources/arrow-up-icon.png" alt="accelerate" height="150" width="150" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="sources/play-button-icon.png" alt="play" height="150" width="150" onclick="restartGame()">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 no-gutters">
+                <div class="col-md-12">
+                    <img src="sources/cougar.jpg" alt="bear" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/cougar-icon.png')">
+                </div>
+                <div class="col-md-12">
+                    <img src="sources/red-panda.png" alt="bear" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/red-panda-icon.png')">
+                </div>
+                <div class="col-md-12">
+                    <img src="sources/goat.jpg" alt="bear" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/goat-icon.png')">
+                </div>
+                <div class="col-md-12">
+                    <img src="sources/eagle.jpg" alt="bear" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/eagle-icon.png')">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12 animal-choice-text">
+                <h1>Alege animalul preferat:</h1>
+            </div>
+        </div>
+        <div class="row description">
+            <div class="col-md-4">
+                <h2>Urs</h2>
+            </div>
+            <div class="col-md-4">
+                <h2>Vulpe</h2>
+            </div>
+            <div class="col-md-4">
+                <h2>Lup</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="sources/bear.jpg" alt="bear" class="animal-option rounded" onclick="changeAnimal('sources/bear-icon.png')">
+            </div>
+            <div class="col-md-4">
+                <img src="sources/fox.jpg" alt="bear" class="animal-option rounded" onclick="changeAnimal('sources/fox-icon.png')">
+            </div>
+            <div class="col-md-4">
+                <img src="sources/wolf.jpeg" alt="bear" class="animal-option rounded" onclick="changeAnimal('sources/wolf-icon.png')">
+            </div>
+           
+        </div>
+        <div class="row description">
+            <div class="col-md-4">
+                <h2>Râs</h2>
+            </div>
+            <div class="col-md-4">
+                <h2>Capră-neagră</h2>
+            </div>
+            <div class="col-md-4">
+                <h2>Vultur</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="sources/linx.jpg" alt="bear" class="animal-option rounded" onclick="changeAnimal('sources/lynx-icon.png')">
+            </div>
+            <div class="col-md-4">
+                <img src="sources/goat.jpg" alt="bear" class="animal-option rounded" onclick="changeAnimal('sources/goat-icon.png')">
+            </div>
+            <div class="col-md-4">
+                <img src="sources/eagle.jpg" alt="bear" class="animal-option rounded" onclick="changeAnimal('sources/eagle-icon.png')">
+            </div>
+            
+        </div>
+        <div class="row description">
+            <div class="col-md-4">
+                <h2>Leu de munte</h2>
+            </div>
+            <div class="col-md-4">
+                <h2>Panda roșu</h2>
+            </div>
+            <div class="col-md-4">
+                <h2>Leopardul zăpezilor</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="sources/cougar.jpg" alt="bear" class="animal-option rounded" onclick="changeAnimal('sources/cougar-icon.png')">
+            </div>
+            <div class="col-md-4">
+                <img src="sources/red-panda.png" alt="bear" class="animal-option rounded" onclick="changeAnimal('sources/red-panda-icon.png')">
+            </div>
+            <div class="col-md-4">
+                <img src="sources/snow-leopard.jpg" alt="bear" class="animal-option rounded" onclick="changeAnimal('sources/snow-leopard-icon.png')">
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script type="text/javascript" src="javascript.js"></script>  
+</body>
+</html>

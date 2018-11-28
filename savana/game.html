@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animale salbatice</title>
+    <link rel="stylesheet" href="../resource/bootstrap/css/bootstrap.min.css">
+    <script src="../resource/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../resource/jquery/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="javascript.js"></script>  
+</head>
+<body>
+    <div class="container container-fluid py-5">
+        <div id="myModal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+              <h3>Mai incearca odata!</h3>
+            </div>
+          </div>
+        </div>
+        <div class="animals">
+          <div class="row justify-content-md-center">
+            <script type="text/javascript">getRandomImage1(random_images_array,"images/")</script>
+          </div>
+          <div class="row justify-content-md-center">
+            <script type="text/javascript">getRandomImage2(random_images_array2,"images/")</script>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-sm-2">
+            <button class="fingerbuttons" id="0" onclick="checkAnswer(this.id);"><img class="img-thumbnail" src="images/0.svg" alt="0"/></button>
+          </div>
+          <div class="col-sm-2">
+             <button class="fingerbuttons" id="1" onclick="checkAnswer(this.id);"><img class="img-thumbnail" src="images/1.svg" alt="1"/></button>
+          </div>
+          <div class="col-sm-2">
+             <button class="fingerbuttons" id="2" onclick="checkAnswer(this.id);"><img class="img-thumbnail" src="images/2.svg" alt="2"/></button>
+          </div>
+          <div class="col-sm-2">
+             <button class="fingerbuttons" id="3" onclick="checkAnswer(this.id);"><img class="img-thumbnail" src="images/3.svg" alt="3"/></button>
+          </div>
+           <div class="col-sm-2">
+             <button class="fingerbuttons" id="4" onclick="checkAnswer(this.id);"><img class="img-thumbnail" src="images/4.svg" alt="4"/></button>
+          </div>
+           <div class="col-sm-2">
+             <button class="fingerbuttons" id="5" onclick="checkAnswer(this.id);"><img class="img-thumbnail" src="images/5.svg" alt="5"/></button>
+          </div>
+        </div>
+      </div>
+
+</body>
+</html>

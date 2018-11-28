@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animale salbatice</title>
+    <link rel="stylesheet" href="../resource/bootstrap/css/bootstrap.min.css">
+    <script src="../resource/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../resource/jquery/jquery-3.3.1.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="header">Polul Nord si Polul Sud</h1>
+    </div>
+	<div id="audio">
+		<video id="video1" width="700" controls>
+		  <source src="framcantec.mp4" type="video/mp4">
+		  Your browser does not support HTML5 video.
+		</video>
+		<video id="video2" width="700" controls>
+		  <source src="frampoveste.mp4" type="video/mp4">
+		  Your browser does not support HTML5 video.
+		</video>
+	</div>
+	<div>
+	<audio id="audio_play">
+		<source src="audio.aac" type="audio/ogg" />
+	</audio>
+	
+	<img id="start" width="150" height="150" src="startgame.png" onClick="document.getElementById('audio_play').play(); return false;" />
+	
+	 
+	<div>
+		<figure>
+	  <img id="img1"  width="280" height="228" onclick="checkFunction(this)">
+	 
+	</figure>
+	<figure>
+	  <img  id="img2" width="280" height="228"  onclick="checkFunction(this)">
+	</figure>
+	<figure>
+	  <img  id="img3" width="280" height="228"  onclick="checkFunction(this)">
+	</figure>
+	<figure>
+	  <img  id="img4" width="280" height="228"  onclick="checkFunction(this)">
+	</figure>
+	</div>
+	<div id="heading1" style="display: block" <img id='succes' src='happy.png'>">
+	
+	
+</div>
+
+    <script type="text/javascript" src="javascript.js"></script>  
+</body>
+</html>
