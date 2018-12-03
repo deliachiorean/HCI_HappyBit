@@ -1,4 +1,6 @@
-
+.container {
+	background: rgba(0, 0, 0, 0.5);
+}
 .divspatiu {
     height: 50px;
 }
@@ -19,4 +21,14 @@ display: none;
 
 .divrez{
 	padding: 90px;
+}
+
+body{
+	color: white;
+	background-image: url("pictures/desert.jpg");
+	height: 100%;
+	position: relative;
+	background-size: cover;
+	/* overflow: hidden; */
+	color: white;
 }

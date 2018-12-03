@@ -1,4 +1,6 @@
-
+.mainContent{
+    background: rgba(0, 0, 0, 0.5);
+}
 
 body{
     margin: 0;
@@ -6,9 +8,10 @@ body{
     border-bottom: 0;
     padding-bottom: 0;
     margin-bottom: 0;
-    background-image: url("resource/backgrounds/backgroundMain2.jpg");
+    background-image: url("resource/backgrounds/main.gif");
     background-repeat: no-repeat;
     background-size:cover;
+    color: white;
     
 }
 div{
