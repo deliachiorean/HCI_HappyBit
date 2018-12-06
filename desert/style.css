@@ -2,14 +2,14 @@
 	background: rgba(0, 0, 0, 0.5);
 }
 .divspatiu {
-    height: 50px;
+    height: 30px;
 }
 
-#imgrezultat{
+/*#imgrezultat{
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-}
+}*/
 
 .hidden {
 display: none;
@@ -20,12 +20,12 @@ display: none;
 }
 
 .divrez{
-	padding: 90px;
+	padding: 70px;
 }
 
 body{
 	color: white;
-	background-image: url("pictures/desert.jpg");
+	/*background-image: url("pictures/desert.jpg");*/
 	height: 100%;
 	position: relative;
 	background-size: cover;
