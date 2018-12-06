@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c73e5185-d906-4fca-9975-1e0129ec8280" name="Default Changelist" comment="schimbari de design">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="c73e5185-d906-4fca-9975-1e0129ec8280" name="Default Changelist" comment="joc campie-numarat">
+      <change beforePath="$PROJECT_DIR$/desert/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/desert/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/javascriptjoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/desert/javascriptjoc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/joc.html" beforeDir="false" afterPath="$PROJECT_DIR$/desert/joc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/Thumbs.db" beforeDir="false" afterPath="$PROJECT_DIR$/desert/pictures/Thumbs.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/ant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/antilopa-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/antilopa-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/antilopa-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/antilopa-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/antilopa-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/antilopa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/camila-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/camila-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/camila-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/camila-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/camila-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/camila.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/cangur-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/cangur-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/cangur-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/cangur-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/cangur-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/cangur.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/desert.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/strut-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/strut-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/strut-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/strut-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/strut-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/pictures/strut.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/desert/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,14 +74,64 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1420351021">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="3" />
+          <entry key="txt" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="3" />
+          <entry key="PLAIN_TEXT" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="html" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desert/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/desert/joc.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -68,6 +148,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -113,10 +194,10 @@
         <option value="$PROJECT_DIR$/savana/game.html" />
         <option value="$PROJECT_DIR$/jungle/index.html" />
         <option value="$PROJECT_DIR$/mountain/index.html" />
-        <option value="$PROJECT_DIR$/desert/style.css" />
         <option value="$PROJECT_DIR$/desert/index.html" />
-        <option value="$PROJECT_DIR$/desert/joc.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/desert/style.css" />
+        <option value="$PROJECT_DIR$/desert/joc.html" />
       </list>
     </option>
   </component>
@@ -148,6 +229,11 @@
             <path>
               <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="desert" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -194,6 +280,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -219,6 +306,7 @@
       <updated>1543835141885</updated>
       <workItem from="1543835143134" duration="11193000" />
       <workItem from="1544112817806" duration="1058000" />
+      <workItem from="1544121917926" duration="267000" />
     </task>
     <task id="LOCAL-00001" summary="schimbari de design">
       <created>1543853548344</created>
@@ -231,13 +319,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12331000" />
+    <option name="totallyTimeSpent" value="12598000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15664244" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15664244" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -248,10 +336,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49834764" visible="true" weight="0.18321678" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4976867" weight="0.1822034" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50165236" side_tool="true" visible="true" weight="0.18321678" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49920508" weight="0.32867134" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50165236" side_tool="true" visible="true" weight="0.32768363" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49834764" visible="true" weight="0.32768363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -265,7 +353,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="schimbari de design" />
-    <option name="LAST_COMMIT_MESSAGE" value="schimbari de design" />
+    <MESSAGE value="joc campie-numarat" />
+    <option name="LAST_COMMIT_MESSAGE" value="joc campie-numarat" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/jungle/animale/card0.jpg">
@@ -316,20 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desert/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desert/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/savana/game.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -341,13 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desert/joc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="36" column="68" lean-forward="true" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -371,10 +439,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/desert/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="48" column="16" lean-forward="true" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desert/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desert/joc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="67" column="10" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
         </state>
       </provider>
     </entry>
