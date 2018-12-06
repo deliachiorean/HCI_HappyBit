@@ -128,7 +128,10 @@ function updateGameArea() {
         myObstacles[i].x += -1;
         myObstacles[i].update();
     }
-    myScore.text="SCORE: " + myGameArea.frameNo;
+    $("#scorr").html("<h1   >\Scor:"+ myGameArea.frameNo+"</h1>");
+
+    // myScore.text="SCOR: " + myGameArea.frameNo;
+    myScore.text="";
     myScore.update();
     myGamePiece.newPos();
     myGamePiece.update();
