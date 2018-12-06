@@ -8,7 +8,7 @@ body{
     border-bottom: 0;
     padding-bottom: 0;
     margin-bottom: 0;
-    background-image: url("./../resource/backgrounds/main.gif");
+    background-image: url("../resource/backgrounds/main.gif");
     background-repeat: no-repeat;
     background-size:cover;
     color: white;
