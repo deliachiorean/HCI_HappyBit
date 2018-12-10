@@ -1,5 +1,5 @@
-var random_images_array = ["baboo.svg", "zebra.svg", "giraffe.svg", "lion.svg", "hippo.svg", "buffalo.svg"];
-var random_images_array2 = ["elephant.svg", "rino.svg", "cheetah.svg", "croco.svg", "snake.svg", "ostrich.svg"];
+var random_images_array = ["bufnita.svg", "iepure.svg", "cartita.svg", "rata.svg", "sarpe.svg", "broasca.svg"];
+var random_images_array2 = ["vulpe.svg", "porc.svg", "soarece.svg", "vaca.svg", "raton.svg", "veverita.svg"];
 var score=0;
 
 function startGame(){
@@ -43,16 +43,20 @@ function substraction(){
 function checkAnswer(id){
 	result = substraction();
 	if (result == id) {
-		location.reload();
+        var audio = new Audio('bravo.mp3');
+        audio.play();
+        setTimeout(function () { location.reload(true); }, 2000);
 	}
 	else {
-		var modal = document.getElementById('myModal');
-		var btn = document.getElementById("myBtn");
-		var span = document.getElementsByClassName("close")[0];
-		modal.style.display = "block";
-		span.onclick = function() {
-		    modal.style.display = "none";
-		}
+		// var modal = document.getElementById('myModal');
+		// var btn = document.getElementById("myBtn");
+		// var span = document.getElementsByClassName("close")[0];
+		// modal.style.display = "block";
+		// span.onclick = function() {
+		//     modal.style.display = "none";
+		// }
+        var audio = new Audio('haide.mp3');
+        audio.play();
 	}
 };
 
