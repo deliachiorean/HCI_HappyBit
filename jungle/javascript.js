@@ -95,7 +95,7 @@ function Game() {
 									table[x][y].revealed = false;
 									loadTable(table);
 									state.clickDisabled = false;
-								}, 2000);
+								}, 1000);
 								
 							} else { 
 								//am gasit corespondeta
