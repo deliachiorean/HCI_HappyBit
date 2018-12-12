@@ -9,45 +9,29 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1 id="header">Polul Nord si Polul Sud</h1>
-    </div>
-	<div id="audio">
-		<video id="video1" width="700" controls>
-		  <source src="framcantec.mp4" type="video/mp4">
-		  Your browser does not support HTML5 video.
-		</video>
-		<video id="video2" width="700" controls>
-		  <source src="frampoveste.mp4" type="video/mp4">
-		  Your browser does not support HTML5 video.
-		</video>
+  
+	<div class="container">
+        <div class="col-1"><img src="./../resource/images/home.svg" onclick="document.location='./../index.html';return false;" alt="home"></div>
+
+        <audio id="my_audio">
+		    <source src="audio.aac" type="audio/ogg" />
+        </audio>
+
+        <div id="score">
+            Score: 0
+        </div>
+
+        <div class="row">
+        <div class="col">  <img id="img1"  width="300" height="228" onclick="checkFunction(this)"></div>
+        <div class="col">  <img  id="img2" width="300" height="228"  onclick="checkFunction(this)"></div>
+        <div class="col"> <img  id="img3" width="300" height="228"  onclick="checkFunction(this)"></div>
+        <div class="col">  <img  id="img4" width="300" height="228"  onclick="checkFunction(this)"></div>
+        <div class="col">  <img  id="img5" width="300" height="228"  onclick="checkFunction(this)"></div>
+        <div class="col">  <img  id="img6" width="300" height="228"  onclick="checkFunction(this)"></div>
 	</div>
-	<div>
-	<audio id="audio_play">
-		<source src="audio.aac" type="audio/ogg" />
-	</audio>
+		
 	
-	<img id="start" width="150" height="150" src="startgame.png" onClick="document.getElementById('audio_play').play(); return false;" />
-	
-	 
-	<div>
-		<figure>
-	  <img id="img1"  width="280" height="228" onclick="checkFunction(this)">
-	 
-	</figure>
-	<figure>
-	  <img  id="img2" width="280" height="228"  onclick="checkFunction(this)">
-	</figure>
-	<figure>
-	  <img  id="img3" width="280" height="228"  onclick="checkFunction(this)">
-	</figure>
-	<figure>
-	  <img  id="img4" width="280" height="228"  onclick="checkFunction(this)">
-	</figure>
-	</div>
-	<div id="heading1" style="display: block" <img id='succes' src='happy.png'>">
-	
-	
+
 </div>
 
     <script type="text/javascript" src="javascript.js"></script>  

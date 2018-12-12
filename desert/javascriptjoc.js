@@ -1,7 +1,8 @@
-var images=["camila-1.jpg", "camila-2.jpg", "camila-3.jpg", "camila-4.jpg", "camila-5.jpg","cangur-1.jpg", "cangur-2.jpg", "cangur-3.jpg", "cangur-4.jpg", "cangur-5.jpg", "strut-1.jpg", "strut-2.jpg", "strut-3.jpg", "strut-4.jpg", "strut-5.jpg", "antilopa-1.jpg", "antilopa-2.jpg", "antilopa-3.jpg", "antilopa-4.jpg", "antilopa-5.jpg"]
+var images=["iepure-1.jpg", "iepure-2.jpg","dropie-1.jpg", "dropie-2.jpg", "vulpe-1.jpg", "vulpe-2.jpg", "popandau-1.jpg", "popandau-2.jpg","arici-1.jpg", "arici-2.jpg","dihor-1.jpg", "dihor-2.jpg", "jder-1.jpg", "jder-2.jpg", "soarece-1.jpg", "soarece-2.jpg"]
+var score=0;
 
 function init(){
-	randomNumber = Math.floor(Math.random()*20);
+	randomNumber = Math.floor(Math.random()*16);
 	let imgj = document.getElementById("imgjoc");
 	imgj.src="pictures/"+images[randomNumber];
 	imgj.click();
@@ -31,6 +32,8 @@ function check(num){
 		audio.play();
 		imgrez.src = "pictures/ok.jpg"
 		imgrez.classList.remove("hidden");
+		score=score+1;
+		document.getElementById('score').innerHTML = "Scor: " + score;
 		setTimeout(hideok, 2000);
 	}
 	else{

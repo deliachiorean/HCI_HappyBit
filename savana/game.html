@@ -6,10 +6,14 @@
     <script src="../resource/bootstrap/js/bootstrap.min.js"></script>
     <script src="../resource/jquery/jquery-3.3.1.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <script type="text/javascript" src="javascript.js"></script>  
 </head>
 <body>
-    <div class="container container-fluid py-5">
+<div class="container py-5">
+    <div class="row">
+        <div class="col-1"><img src="./../resource/images/home.svg" onclick="document.location='./../index.html';return false;" alt="home"></div>
+    </div>
         <div id="myModal" class="modal">
           <div class="modal-content">
             <div class="modal-header">
@@ -20,7 +24,8 @@
             </div>
           </div>
         </div>
-        <div class="animals">
+
+        <div class="animals py-3">
           <div class="row justify-content-md-center">
             <script type="text/javascript">getRandomImage1(random_images_array,"images/")</script>
           </div>
@@ -49,6 +54,5 @@
           </div>
         </div>
       </div>
-
 </body>
 </html>
