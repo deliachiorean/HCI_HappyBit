@@ -2,6 +2,9 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
+.mainDiv{
+    padding: 30px;
+}
 .fingerbuttons {
 	border: none;
 	background-color: transparent;
