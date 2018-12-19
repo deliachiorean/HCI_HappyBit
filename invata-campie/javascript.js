@@ -1,171 +1,94 @@
-var myGamePiece;
-var myObstacles = [];
-var myScore;
-var restart=false;
-var icon="sources/bear-icon.png";
+$(document).ready(function(){
 
-$( document ).ready(function() {
-    startGame();
+	$("#slideshow > div:gt(0)").hide();
+
+var buttons = "<button class=\"slidebtn prev\">Prev</button><button class=\"slidebtn next\">Next</button\>";
+
+$("#slideshow").append(buttons);
+var interval = setInterval(slide, 3000);
+
+function intslide(func) {
+	if (func == 'start') { 
+ 	interval = setInterval(slide, 3000);
+	} else {
+		clearInterval(interval);		
+		}
+}
+
+function slide() {
+		tran('next', 0, 1200);
+}
+	
+function tran(a, ix, it) {
+        var currentSlide = $('.current');
+        var nextSlide = currentSlide.next('.slideitem');
+        var prevSlide = currentSlide.prev('.slideitem');
+		    var reqSlide = $('.slideitem').eq(ix);// eq: elementul cu indexul
+
+		    
+		
+        if (nextSlide.length == 0) {
+            nextSlide = $('.slideitem').first();
+            }
+
+        if (prevSlide.length == 0) {
+            prevSlide = $('.slideitem').last();
+            }
+			
+		if (a == 'next') {
+			var Slide = nextSlide;
+			}
+			else if (a == 'prev') {
+				var Slide = prevSlide;
+				}
+				else {
+					var Slide = reqSlide;
+					}
+
+        currentSlide.fadeOut(it).removeClass('current');
+        Slide.fadeIn(it).addClass('current');
+    
+        
+		
+    	
+}	
+
+$('.next').on('click', function(){
+		intslide('stop');						
+		tran('next', 0, 400);
+		intslide('start');						
+	});//next
+
+$('.prev').on('click', function(){
+		intslide('stop');						
+		tran('prev', 0, 400);
+		intslide('start');						
+	});//prev
+
+
 });
 
-window.onresize = function(){ restartGame(); }
-
-function restartGame(){
-    myGameArea.clear();
-    myObstacles = [];
-    restart=true;
-    startGame();
-}
-
-function startGame() {
-    myGamePiece = new component(40, 40, icon , 10, 120, "image");
-
-    myGamePiece.gravity = 0.05;
-    myScore = new component("30px", "Consolas", "black", 280, 40, "text");
-    myGameArea.start();
-}
-
-var myGameArea = {
-    canvas : document.createElement("canvas"),
-    start : function() {
-        var canvasContainer = document.getElementById("game-row");
-
-        this.canvas.width = canvasContainer.clientWidth-40;
-        this.canvas.height = 500;
-        this.context = this.canvas.getContext("2d");
-        $( "#game" ).append( this.canvas );
-        this.frameNo = 0;
-        if(!restart)
-            this.interval = setInterval(updateGameArea, 20);
-        },
-    clear : function() {
-        this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
-    }
-}
-
-function component(width, height, color, x, y, type) {
-    this.type = type;
-    if (type == "image") {
-        this.image = new Image();
-        this.image.src = color;
-    }
-    this.score = 0;
-    this.width = width;
-    this.height = height;
-    this.speedX = 0;
-    this.speedY = 0;    
-    this.x = x;
-    this.y = y;
-    this.gravity = 0;
-    this.gravitySpeed = 0;
-    this.update = function() {
-        ctx = myGameArea.context;
-        if (this.type == "text") {
-            ctx.font = this.width + " " + this.height;
-            ctx.fillStyle = color;
-            ctx.fillText(this.text, this.x, this.y);
-        } else if (type == "image") {
-            ctx.drawImage(this.image, 
-              this.x, 
-              this.y,
-              this.width, this.height);
-        } else {
-            ctx.fillStyle = color;
-            ctx.fillRect(this.x, this.y, this.width, this.height);
-        }
-    }
-    this.newPos = function() {
-        this.gravitySpeed += this.gravity;
-        this.x += this.speedX;
-        this.y += this.speedY + this.gravitySpeed;
-        this.hitBottom();
-    }
-    this.hitBottom = function() {
-        var rockbottom = myGameArea.canvas.height - this.height;
-        if (this.y > rockbottom) {
-            this.y = rockbottom;
-            this.gravitySpeed = 0;
-        }
-    }
-    this.crashWith = function(otherobj) {
-        var myleft = this.x;
-        var myright = this.x + (this.width);
-        var mytop = this.y;
-        var mybottom = this.y + (this.height);
-        var otherleft = otherobj.x;
-        var otherright = otherobj.x + (otherobj.width);
-        var othertop = otherobj.y;
-        var otherbottom = otherobj.y + (otherobj.height);
-        var crash = true;
-        if ((mybottom < othertop) || (mytop > otherbottom) || (myright < otherleft) || (myleft > otherright)) {
-            crash = false;
-        }
-        return crash;
-    }
-}
-
-function updateGameArea() {
-    var x, height, gap, minHeight, maxHeight, minGap, maxGap;
-    for (i = 0; i < myObstacles.length; i += 1) {
-        if (myGamePiece.crashWith(myObstacles[i])) {
-            return;
-        } 
-    }
-    myGameArea.clear();
-    myGameArea.frameNo += 1;
-    if (myGameArea.frameNo == 1 || everyinterval(150)) {
-        x = myGameArea.canvas.width;
-        minHeight = 20;
-        maxHeight = 200;
-        height = Math.floor(Math.random()*(maxHeight-minHeight+1)+minHeight);
-        minGap = 50;
-        maxGap = 200;
-        gap = Math.floor(Math.random()*(maxGap-minGap+1)+minGap);
-        myObstacles.push(new component(10, height, "green", x, 0));
-        myObstacles.push(new component(10, x - height - gap, "green", x, height + gap));
-    }
-    for (i = 0; i < myObstacles.length; i += 1) {
-        myObstacles[i].x += -1;
-        myObstacles[i].update();
-    }
-    $("#scorr").html("<h1   >\Scor:"+ myGameArea.frameNo+"</h1>");
-
-    // myScore.text="SCOR: " + myGameArea.frameNo;
-    myScore.text="";
-    myScore.update();
-    myGamePiece.newPos();
-    myGamePiece.update();
-}
-
-function everyinterval(n) {
-    if ((myGameArea.frameNo / n) % 1 == 0) {return true;}
-    return false;
-}
-
-function accelerate(n) {
-    myGamePiece.gravity = n;
-}
-
-function changeAnimal(name){
-    icon = name;
-    restartGame();
-}
-
-
-$(document).keydown(function(event) {
-    // on up arrow or space game logic
-    if (event.keyCode === 38 || event.keyCode ===32 ) {
-        accelerate(-0.2); 
-    }
-    //on enter -replay
-    if (event.keyCode === 13 ) {
-        restartGame();
-    }
-});
-
-$(document).keyup(function(event) {
-     // on up arrow or space game logic
-    if (event.keyCode === 38 || event.keyCode ===32 ) {
-        accelerate(0.05);
-    }
-});
+document.getElementById("a1").onmouseover = function(){
+    document.getElementById("animal1").play();
+};
+document.getElementById("a2").onmouseover = function(){
+    document.getElementById("animal2").play();
+};
+document.getElementById("a3").onmouseover = function(){
+    document.getElementById("animal3").play();
+};
+document.getElementById("a4").onmouseover = function(){
+    document.getElementById("animal4").play();
+};
+document.getElementById("a5").onmouseover = function(){
+    document.getElementById("animal5").play();
+};
+document.getElementById("a6").onmouseover = function(){
+    document.getElementById("animal6").play();
+};
+document.getElementById("a7").onmouseover = function(){
+    document.getElementById("animal7").play();
+};
+document.getElementById("a8").onmouseover = function(){
+    document.getElementById("animal8").play();
+};
