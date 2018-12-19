@@ -9,7 +9,17 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
+    <audio id="my_audio">
+        <source src="indicatii_start.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="img1">
+        <source src="campie.mp3"></source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+    <audio id="img2">
+        <source src="munte.mp3"></source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
     <div class="text-center py-5" vertical-align="middle">
         <h1>Animale salbatice</h1>
     </div>
@@ -19,13 +29,13 @@
           <div class="col-sm-6 text-center" >
             <h3>Campie</h3>
             <a href="#" class="menu-item" onclick="document.location='./jocuri-campie/index.html';return false;" >
-                <img src="./resource/backgrounds/campie.jpg" class="img-rounded" alt="Cinque Terre" width="500" height="350" >
+                <img src="./resource/backgrounds/campie.jpg" class="img-rounded" alt="Cinque Terre" width="500" height="350" onmouseover="imagine(1)" onmouseout="stop(1)">
             </a>
           </div>
           <div class="col-sm-6 text-center">
             <h3>Munte</h3>
             <a href="#" class="menu-item" onclick="document.location='./jocuri-munte/index.html';return false;" >
-                <img src="./resource/backgrounds/munte.jpg" class="img-rounded" alt="Cinque Terre" width="500" height="350">
+                <img src="./resource/backgrounds/munte.jpg" class="img-rounded" alt="Cinque Terre" width="500" height="350" onmouseover="imagine(2)" onmouseout="stop(2)">
             </a>
           </div>
         </div>

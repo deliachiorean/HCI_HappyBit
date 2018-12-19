@@ -2,21 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c73e5185-d906-4fca-9975-1e0129ec8280" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/polar/arici.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polar/bravo.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polar/broasca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polar/cal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polar/catel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polar/dihore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polar/dropia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polar/gaina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polar/haide.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polar/nevastuica-cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polar/oaie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polar/peste.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polar/popandaul.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polar/porc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polar/rata.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polar/soarece.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polar/vaca.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/desert/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/desert/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/desert/javascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desert/javascriptjoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/desert/javascriptjoc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/desert/joc.html" beforeDir="false" afterPath="$PROJECT_DIR$/desert/joc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/desert/pictures/back.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/invata-campie/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/invata-campie/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/invata-munte/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/invata-munte/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jocuri-campie/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jocuri-campie/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jocuri-campie/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/jocuri-campie/javascript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jocuri-munte/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jocuri-munte/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jocuri-munte/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/jocuri-munte/javascript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jungle/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jungle/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mountain/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mountain/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plain/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/plain/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/antilopa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/camila.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/ceva.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/elefant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/foca.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/framcantec.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/frampoveste.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/girafa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/happy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/iepure.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/polar/iepure.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/polar/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/polar/javascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/leu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/morsa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/pinguin.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/ren.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/sadface.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/snowflake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/polar/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/tigru.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/urs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/urs_panda.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/urspolar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/vulpe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/polar/vulpe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polar/zebra.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/backgrounds/savana.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/resource/backgrounds/savana.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/savana/game.html" beforeDir="false" afterPath="$PROJECT_DIR$/savana/game.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/savana/images/baboo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/savana/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/savana/images/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/savana/images/background.png" beforeDir="false" afterPath="$PROJECT_DIR$/savana/images/background.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/savana/images/buffalo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/savana/images/cheetah.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/savana/images/croco.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/savana/images/elephant.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/savana/images/giraffe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/savana/images/hippo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/savana/images/lion.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/savana/images/ostrich.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/savana/images/rino.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/savana/images/snake.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/savana/images/zebra.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/savana/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/savana/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/savana/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/savana/javascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/savana/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/savana/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,94 +90,137 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="476495665">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="24" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1420351021">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.107" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.75" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="288" />
+          <entry key="js" value="33" />
+          <entry key="txt" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="288" />
+          <entry key="JavaScript" value="33" />
+          <entry key="PLAIN_TEXT" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="html" value="7" />
+          <entry key="js" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="7" />
+          <entry key="JavaScript" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/desert/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
+            <state relative-caret-position="476">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/savana/index.html">
+        <entry file="file://$PROJECT_DIR$/desert/joc.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            <state relative-caret-position="170">
+              <caret line="48" column="54" lean-forward="true" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/desert/javascriptjoc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-278">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/desert/joc.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="13" column="128" selection-start-line="13" selection-start-column="128" selection-end-line="13" selection-end-column="128" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/desert/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="58" selection-start-line="13" selection-end-line="14" />
+              <caret line="13" column="114" selection-start-line="13" selection-start-column="114" selection-end-line="13" selection-end-column="114" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/savana/game.html">
+        <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="138" selection-start-line="14" selection-start-column="138" selection-end-line="14" selection-end-column="138" />
+            <state relative-caret-position="170">
+              <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jocuri-munte/index.html">
+        <entry file="file://$PROJECT_DIR$/desert/javascript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="14" column="143" selection-start-line="14" selection-start-column="143" selection-end-line="14" selection-end-column="143" />
+            <state relative-caret-position="272">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jungle/index.html">
+        <entry file="file://$PROJECT_DIR$/javascript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="146" selection-start-line="14" selection-start-column="146" selection-end-line="14" selection-end-column="146" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mountain/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="146" selection-start-line="15" selection-start-column="146" selection-end-line="15" selection-end-column="146" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/plain/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="138" selection-start-line="13" selection-start-column="138" selection-end-line="13" selection-end-column="138" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/polar/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="138" selection-start-line="13" selection-start-column="138" selection-end-line="13" selection-end-column="138" />
+            <state relative-caret-position="272">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -172,21 +278,32 @@
         <option value="$PROJECT_DIR$/savana/style.css" />
         <option value="$PROJECT_DIR$/savana/javascript.js" />
         <option value="$PROJECT_DIR$/mountain/javascript.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/jocuri-munte/index.html" />
-        <option value="$PROJECT_DIR$/desert/index.html" />
         <option value="$PROJECT_DIR$/invata-munte/index.html" />
         <option value="$PROJECT_DIR$/invata-campie/index.html" />
-        <option value="$PROJECT_DIR$/jocuri-campie/index.html" />
         <option value="$PROJECT_DIR$/jungle/index.html" />
         <option value="$PROJECT_DIR$/mountain/index.html" />
         <option value="$PROJECT_DIR$/plain/index.html" />
         <option value="$PROJECT_DIR$/polar/index.html" />
         <option value="$PROJECT_DIR$/savana/game.html" />
         <option value="$PROJECT_DIR$/savana/index.html" />
+        <option value="$PROJECT_DIR$/desert/javascript.js" />
+        <option value="$PROJECT_DIR$/desert/javascriptjoc.js" />
+        <option value="$PROJECT_DIR$/jocuri-campie/javascript.js" />
+        <option value="$PROJECT_DIR$/jocuri-munte/javascript.js" />
+        <option value="$PROJECT_DIR$/javascript.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/jocuri-campie/index.html" />
+        <option value="$PROJECT_DIR$/jocuri-munte/index.html" />
         <option value="$PROJECT_DIR$/desert/joc.html" />
+        <option value="$PROJECT_DIR$/desert/index.html" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="15" />
@@ -199,72 +316,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="desert" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="invata-campie" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="invata-munte" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="jocuri-campie" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="jocuri-munte" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="jungle" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="mountain" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="plain" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="polar" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="resource" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="savana" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,6 +348,22 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="desert" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -314,6 +381,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HCI_HappyBit/desert/index.html">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -348,13 +425,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21806000" />
+    <option name="totallyTimeSpent" value="24440000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15659778" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15532055" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -365,9 +441,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4976867" visible="true" weight="0.0" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50165236" side_tool="true" weight="0.32692307" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49438202" weight="0.1822034" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49966952" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50033045" side_tool="true" weight="0.32909605" />
       <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49834764" visible="true" weight="0.32768363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -376,6 +452,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="schimbari de design" />
@@ -414,13 +493,6 @@
     <entry file="file://$PROJECT_DIR$/resource/backgrounds/arctic.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/desert/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -437,21 +509,13 @@
     <entry file="file://$PROJECT_DIR$/resource/backgrounds/savana.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/backgrounds/savana.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/backgrounds/savana.png" />
     <entry file="file://$PROJECT_DIR$/savana/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="109" column="29" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jocuri-munte/javascript.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javascript.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/savana/javascript.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -461,11 +525,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mountain/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="124" column="38" lean-forward="true" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/invata-munte/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -481,20 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jocuri-campie/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="13" column="140" selection-start-line="13" selection-start-column="140" selection-end-line="13" selection-end-column="140" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jocuri-munte/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="14" column="143" selection-start-line="14" selection-start-column="143" selection-end-line="14" selection-end-column="143" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jungle/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -503,11 +549,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mountain/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="146" selection-start-line="15" selection-start-column="146" selection-end-line="15" selection-end-column="146" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/plain/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -520,13 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="138" selection-start-line="13" selection-start-column="138" selection-end-line="13" selection-end-column="138" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
         </state>
       </provider>
     </entry>
@@ -544,17 +579,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/desert/index.html">
+    <entry file="file://$PROJECT_DIR$/desert/javascriptjoc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="58" selection-start-line="13" selection-end-line="14" />
+        <state relative-caret-position="-278">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desert/pictures/arici-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jocuri-campie/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desert/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="37" column="167" selection-start-line="37" selection-start-column="167" selection-end-line="37" selection-end-column="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jocuri-campie/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="26" column="21" lean-forward="true" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jocuri-munte/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jocuri-munte/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="33" column="115" selection-start-line="33" selection-start-column="115" selection-end-line="33" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desert/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/desert/joc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="13" column="128" selection-start-line="13" selection-start-column="128" selection-end-line="13" selection-end-column="128" />
+          <caret line="48" column="54" lean-forward="true" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/desert/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="114" selection-start-line="13" selection-start-column="114" selection-end-line="13" selection-end-column="114" />
         </state>
       </provider>
     </entry>

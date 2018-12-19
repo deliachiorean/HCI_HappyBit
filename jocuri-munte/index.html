@@ -10,21 +10,40 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <audio id="my_audio">
+        <source src="indicatii_munte.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="img1">
+        <source src="joc_memorie.mp3"></source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+    <audio id="img2">
+        <source src="joc_munte.mp3"></source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+    <audio id="img3">
+        <source src="zona_invatat.mp3"></source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+    <audio id="img4">
+        <source src="inapoi_meniu.mp3"></source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
     <div class="mainContent">
         <div class="container py-5">
-            <div class="col-1"><img src="./../resource/images/home.svg" onclick="document.location='./../index.html';return false;" alt="home" ></div>
+            <div class="col-1"><img src="./../resource/images/home.svg" onmouseover="imagine(4)" onmouseout="stop(4)" onclick="document.location='./../index.html';return false;" alt="home" ></div>
 
             <div class="row py-3">
                 <div class="col-sm-6 text-center" >
                     <h3>Joc de memorie</h3>
                     <a href="#" class="menu-item" onclick="document.location='./../jungle/index.html';return false;" >
-                        <img src="../resource/backgrounds/jungla.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236" >
+                        <img src="../resource/backgrounds/jungla.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236" onmouseover="imagine(1)" onmouseout="stop(1)">
                     </a>
                 </div>
                 <div class="col-sm-6 text-center">
                     <h3>Munte</h3>
                     <a href="#" class="menu-item" onclick="document.location='./../mountain/index.html';return false;" >
-                        <img src="../resource/backgrounds/munte.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236">
+                        <img src="../resource/backgrounds/munte.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236" onmouseover="imagine(2)" onmouseout="stop(2)">
                     </a>
                 </div>
             </div>
@@ -32,7 +51,7 @@
                 <div class="col-sm-12 text-center">
                     <h3>Invata</h3>
                     <a href="#" class="menu-item" onclick="document.location='./../invata-munte/index.html';return false;" >
-                        <img src="../resource/images/learn.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236">
+                        <img src="../resource/images/learn.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236" onmouseover="imagine(3)" onmouseout="stop(3)">
                     </a>
                 </div>
             </div>

@@ -1,6 +1,13 @@
 var images=["iepure-1.jpg", "iepure-2.jpg","dropie-1.jpg", "dropie-2.jpg", "vulpe-1.jpg", "vulpe-2.jpg", "popandau-1.jpg", "popandau-2.jpg","arici-1.jpg", "arici-2.jpg","dihor-1.jpg", "dihor-2.jpg", "jder-1.jpg", "jder-2.jpg", "soarece-1.jpg", "soarece-2.jpg"]
 var score=0;
 
+window.onload=function(){
+    document.getElementById("my_audio").play().catch(function() {
+        // do something
+        document.getElementById("my_audio").play()
+    });
+}
+
 function init(){
 	randomNumber = Math.floor(Math.random()*16);
 	let imgj = document.getElementById("imgjoc");
