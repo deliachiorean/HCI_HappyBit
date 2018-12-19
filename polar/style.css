@@ -1,6 +1,22 @@
 .col {
 	margin: 20px;
 }
+
 body{
-	background-image: url("snowflake.png");
+	background-image: url("polarbg.jpg");
+	text-align: center;
+	background-size: cover;
+}
+
+.container{
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.mainDiv{
+	padding: 30px;
+}
+
+.scor{
+	color: white;
+	font-size: 30px;
 }

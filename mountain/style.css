@@ -1,10 +1,7 @@
 body{
-    background-image: url("sources/mountain-background.jpg");
-    height: 100%;
-    position: relative;
+    background-image: url("sources/muntebg.jpg");
+    text-align: center;
     background-size: cover;
-    /* overflow: hidden; */
-    color: white;
 }
 
 canvas {
@@ -45,4 +42,8 @@ canvas {
     margin-left: 0;
   
     
-  }
+}
+
+.mainDiv{
+    padding: 30px;
+}
