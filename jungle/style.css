@@ -1,4 +1,21 @@
+.container {
+	background: rgba(0, 0, 0, 0.5);
+}
 
+.mainDiv{
+	padding: 30px;
+}
+
+.bord{
+	border: 5px groove gray;
+}
+#title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    
+}
 table{
 	margin: 0 auto;
     width: 700px;
@@ -31,12 +48,19 @@ img{
 
 body{
 
-    background-image: url("sources/backgroud.jpg");
     background-repeat: no-repeat;
     opacity: 0.9;
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
     background-size:cover;
+}
+
+#btn {
+    background-image: url("back.png");
+    
+}
+#my_help{
+    background: url("help.png");
 }
 

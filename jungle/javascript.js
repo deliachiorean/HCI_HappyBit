@@ -1,3 +1,9 @@
+window.onload=function(){
+	document.getElementById("my_audio").play().catch(function() {
+			// do something
+			document.getElementById("my_audio").play()
+	});
+}
 
 var nrClick=0;
 var firs;
@@ -58,10 +64,22 @@ function control(){
 	if(cards[first]==cards[second]){
 		match++;
 		if(match==8)
-		{alert("congratulations!!");
-		}
+		var audio = document.getElementById("bravo")
+		audio.play();
 	}else{
-		document.images[first].src="sources/m_icon.jpg";
-		document.images[second].src="sources/m_icon.jpg";
+		document.images[first].src="forest.jpg";
+		document.images[second].src="forest.jpg";
 	}
+}
+
+
+function PlaySound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.play();
+}
+
+function StopSound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.pause();
+    thissound.currentTime = 0;
 }

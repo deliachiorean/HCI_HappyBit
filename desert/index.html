@@ -9,10 +9,12 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<div class="mainDiv">
     <div class="container py-5">
 		<div class="row">
 			<div class="col-1"><img src="./../resource/images/home.svg" onmouseover="animal(9)" onmouseout="stop(9)" onclick="document.location='./../index.html';return false;" alt="home"></div>
 		</div>
+		<div class="row pt-5">
 		<audio id="my_audio">
 			<source src="pictures/incepe_joc_numarat.mp3" type="audio/mpeg">
 		</audio>
@@ -95,13 +97,14 @@
 			<div class="col-md-3 offset-md-5">
 				<div>
 				<form action="joc.html" target="_top">
-				<input type="image" src="pictures/start.png" alt="Buton start joc" width="150" height="150">
+					<button class="startbtn" onclick="startGame();"><img class="startImage" src="pictures/start.png" alt="Buton start joc" width="150" height="150"></button>
 				</form>
 				</div>
 			</div>
 		  </div>
 		</div>
     </div>
-    <script type="text/javascript" src="javascript.js"></script>  
+</div>
+    <script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
