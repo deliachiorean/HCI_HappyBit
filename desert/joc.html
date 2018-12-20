@@ -8,14 +8,18 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<div class="mainDiv">
 	<div class="container py-5">
+		<audio id="my_audio">
+			<source src="pictures/cate_animale.mp3" type="audio/mpeg">
+		</audio>
 		<div class="row">
 			<div class="col-1">
-				<img src="pictures/home.png" width="50" height="50">
+				<img src="./../resource/images/home.svg" onmouseover="cifre(7)" onmouseout="stop(7)" onclick="document.location='./../index.html';return false;" alt="home">
 			</div>
 			  <div class="col-1">
 					<form action="index.html" target="_top">
-					<input type="image" src="pictures/back.png" alt="Buton start joc" width="50" height="50">
+					<input type="image" src="pictures/back.svg" alt="Buton start joc" width="50" height="50" onmouseover="cifre(6)" onmouseout="stop(6)">
 					</form>
 			  </div>
 		  <div class="col-8" align="center">
@@ -25,7 +29,7 @@
 			</div>
 		  </div>
 		<div class="divspatiu"></div>
-		<div class="row">
+		<div class="row pt-5">
 		  <div class="col-8">
 			<img src="pictures/soarece-1.jpg" id="imgjoc" class="rounded bord" alt="Imagine joc" width="700" height="500">
 		  </div>
@@ -50,6 +54,14 @@
 				<source src="pictures/5.mp3"></source>
 				Your browser isn't invited for super fun audio time.
 			</audio>
+			  <audio id="a6">
+				  <source src="pictures/inapoi.mp3"></source>
+				  Your browser isn't invited for super fun audio time.
+			  </audio>
+			  <audio id="a7">
+				  <source src="pictures/inapoi_meniu.mp3"></source>
+				  Your browser isn't invited for super fun audio time.
+			  </audio>
 			<audio id="bravo">
 				<source src="pictures/bravo.mp3"></source>
 				Your browser isn't invited for super fun audio time.
@@ -66,6 +78,7 @@
 		</div>
     </div>
 	</div>
+</div>
 	<script type="text/javascript" src="javascriptjoc.js"></script>
 </body>
 </html>

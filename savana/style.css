@@ -2,6 +2,9 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
+.mainDiv{
+    padding: 30px;
+}
 .fingerbuttons {
 	border: none;
 	background-color: transparent;
@@ -26,6 +29,7 @@ img {
 body{
     background-image: url("images/background.png");
 	text-align: center;
+    background-size: cover;
 }
 
 h1 {
@@ -71,7 +75,7 @@ h1 {
     background-color: white;
     margin: auto;
     padding: 0;
-    border: 1px solid #008328;
+    border: 1px solid #EF414A;
     width: 40%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
@@ -106,7 +110,7 @@ h1 {
 
 .modal-header {
     padding: 2px 16px;
-    background-color: #008328;
+    background-color: #EF414A;
     color: white;
 }
 

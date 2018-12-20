@@ -5,38 +5,61 @@
     <link rel="stylesheet" href="../resource/bootstrap/css/bootstrap.min.css">
     <script src="../resource/bootstrap/js/bootstrap.min.js"></script>
     <script src="../resource/jquery/jquery-3.3.1.js"></script>
-
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <audio id="my_audio">
+        <source src="indicatii_campie.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="img1">
+        <source src="joc_diferenta.mp3"></source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+    <audio id="img2">
+        <source src="joc_numara.mp3"></source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+    <audio id="img3">
+        <source src="joc_intrus.mp3"></source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+    <audio id="img4">
+        <source src="zona_invatat.mp3"></source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
+    <audio id="img5">
+        <source src="inapoi_meniu.mp3"></source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
     <div class="mainContent">
       <div class="container py-5">
-          <div class="col-1"><img src="./../resource/images/home.png" onclick="document.location='./../index.html';return false;" alt="home" height="60" width="60"></div>
-          <div class="row pt-5">
-              <div class="col-sm-4 text-center">
-                  <h3>Diferenta</h3>
+          <div class="col-1"><img src="./../resource/images/home.svg" onmouseover="imagine(5)" onmouseout="stop(5)" onclick="document.location='./../index.html';return false;" alt="home"></div>
+          <div class="row pt-3">
+              <div class="col-sm-6 text-center">
+                  <h3>Diferență</h3>
                   <a href="#" class="menu-item" onclick="document.location='./../savana/index.html';return false;" >
-                      <img src="../resource/backgrounds/savana.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236">
+                      <img src="../resource/backgrounds/savana.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236"  onmouseover="imagine(1)" onmouseout="stop(1)">
                   </a>
               </div>
-              <div class="col-sm-4 text-center">
-                  <h3>Numara animalele</h3>
+              <div class="col-sm-6 text-center">
+                  <h3>Numără animalele</h3>
                   <a href="#" class="menu-item" onclick="document.location='./../desert/index.html';return false;" >
-                      <img src="../resource/backgrounds/desert.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236">
-                  </a>
-              </div>
-              <div class="col-sm-4 text-center">
-                  <h3>Gaseste intrusul</h3>
-                  <a href="#" class="menu-item" onclick="document.location='./../polar/index.html';return false;" >
-                      <img src="../resource/backgrounds/arctic.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236">
+                      <img src="../resource/backgrounds/campie2.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236"  onmouseover="imagine(2)" onmouseout="stop(2)">
                   </a>
               </div>
           </div>
-          <div class="row pt-5">
-              <div class="col-sm-12 text-center">
-                  <h3>Invata</h3>
+          <div class="row py-5">
+              <div class="col-sm-6 text-center">
+                  <h3>Găsește intrusul</h3>
+                  <a href="#" class="menu-item" onclick="document.location='./../polar/index.html';return false;" >
+                      <img src="../resource/backgrounds/campie3.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236"  onmouseover="imagine(3)" onmouseout="stop(3)">
+                  </a>
+              </div>
+              <div class="col-sm-6 text-center">
+                  <h3>Învață</h3>
                   <a href="#" class="menu-item" onclick="document.location='./../invata-campie/index.html';return false;" >
-                      <img src="../resource/images/learn.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236">
+                      <img src="../resource/images/learn.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236"  onmouseover="imagine(4)" onmouseout="stop(4)">
                   </a>
               </div>
           </div>

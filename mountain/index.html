@@ -5,15 +5,43 @@
     <link rel="stylesheet" href="../resource/bootstrap/css/bootstrap.min.css">
     <script src="../resource/bootstrap/js/bootstrap.min.js"></script>
     <script src="../resource/jquery/jquery-3.3.1.js"></script>
-
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body >
+<div class="mainDiv">
+    <audio id="intro" autoplay>
+        <source src="mp3/indicatii_paul.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="animal1">
+        <source src="mp3/urs.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="animal2">
+        <source src="mp3/vulpe.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="animal3">
+        <source src="mp3/lup.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="animal4">
+        <source src="mp3/cerb.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="animal5">
+        <source src="mp3/vidra.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="animal6">
+        <source src="mp3/porc_mistret.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="animal7">
+        <source src="mp3/capra_neagra.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="animal8">
+        <source src="mp3/castor.mp3" type="audio/mpeg">
+    </audio>
 
     <div class="container py-5">
-        <div class="titlu text-center pb-3">
+        <div class="titlu text-center py-3">
             <div class="row">
-                <div class="col-1"><img src="sources/home.png" alt="home" height="60" width="60"></div>
+                <div class="col-1"><img src="./../resource/images/home.svg" onclick="document.location='./../index.html';return false;" alt="home"></div>
                 <div class="col-1"><img src="sources/arrow-up-icon.png" alt="accelerate" height="60" width="60" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)"></div>
                 <div class="col-1"><img src="sources/reload.png" alt="play" height="60" width="60" onclick="restartGame()"></div>
                 <div class="align-self-end">
@@ -25,16 +53,16 @@
         <div class="row no-gutters">
             <div class="col-md-2 no-gutters">
                 <div class="col-md-12">
-                    <img src="sources/bear.jpg" alt="urs" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/bear-icon.png')">
+                    <img src="sources/bear.jpg" alt="urs" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/bear-icon.png')" onmouseover="animal(1)" onmouseout="stop(1)">
                 </div>
                 <div class="col-md-12">
-                    <img src="sources/fox.jpg" alt="vulpe" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/fox-icon.png')">
+                    <img src="sources/fox.jpg" alt="vulpe" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/fox-icon.png')" onmouseover="animal(2)" onmouseout="stop(2)">
                 </div>
                 <div class="col-md-12">
-                    <img src="sources/wolf.jpeg" alt="lup" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/wolf-icon.png')">
+                    <img src="sources/wolf.jpeg" alt="lup" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/wolf-icon.png')" onmouseover="animal(3)" onmouseout="stop(3)">
                 </div>
                 <div class="col-md-12">
-                    <img src="sources/cerb.jpg" alt="cerb" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/cerb-icon.png')">
+                    <img src="sources/cerb.jpg" alt="cerb" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/cerb-icon.png')" onmouseover="animal(4)" onmouseout="stop(4)">
                 </div>
             </div>
 
@@ -48,16 +76,16 @@
             </div>
             <div class="col-md-2 no-gutters">
                 <div class="col-md-12">
-                    <img src="sources/vidra.jpg" alt="vidra" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/vidra-icon.png')">
+                    <img src="sources/vidra.jpg" alt="vidra" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/vidra-icon.png')" onmouseover="animal(5)" onmouseout="stop(5)">
                 </div>
                 <div class="col-md-12">
-                    <img src="sources/mistret.jpg" alt="mistret" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/mistret-icon.png')">
+                    <img src="sources/mistret.jpg" alt="mistret" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/mistret-icon.png')" onmouseover="animal(6)" onmouseout="stop(6)">
                 </div>
                 <div class="col-md-12">
-                    <img src="sources/goat.jpg" alt="capra neagra" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/goat-icon.png')">
+                    <img src="sources/goat.jpg" alt="capra neagra" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/goat-icon.png')" onmouseover="animal(7)" onmouseout="stop(7)">
                 </div>
                 <div class="col-md-12">
-                    <img src="sources/castor.jpg" alt="castor" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/castor-icon.png')">
+                    <img src="sources/castor.jpg" alt="castor" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/castor-icon.png')" onmouseover="animal(8)" onmouseout="stop(8)">
                 </div>
             </div>
         </div>
@@ -139,7 +167,7 @@
 
 
     </div>
-
+</div>
     <script type="text/javascript" src="javascript.js"></script>  
 </body>
 </html>
