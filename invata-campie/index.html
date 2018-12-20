@@ -9,10 +9,23 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body >
+    <center><h1 onmouseover="animal(10)" onmouseout="stop(10)">Sa invatam animalele de la campie!</h1></center>
+  </div>
+  
+<audio id="animal10">
+    <source src="invata_campie.mp3"></source>
+    Your browser isn't invited for super fun audio time.
+</audio>
+<audio id="animal1">
+    <source src="inapoi_meniu.mp3"></source>
+    Your browser isn't invited for super fun audio time.
+</audio>
 
     <div class="container py-5">
-        <div class="col-1"><img src="./../resource/images/home.svg" onclick="document.location='./../index.html';return false;" alt="home"></div>
-        <h1>Sa invatam animalele de la campie!</h1>
+        <div class="col-1"><img src="./../resource/images/home.svg" onmouseover="animal(1)" onmouseout="stop(1)" onclick="document.location='./../index.html';return false;" alt="home"></div>
+       
+            
+                
         <div id="slideshow">
             <div class="slideitem current" id="a5" onmouseover="play()">
               <img src="images/arici-1.jpg" >
