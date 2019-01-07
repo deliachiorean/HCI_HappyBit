@@ -5,7 +5,10 @@ var haide = new Audio('haide.mp3');
 function init() {
 	gasite=0;
   var x = Math.floor((Math.random() * 10) + 1);
-  
+
+  if (score == 10){
+      window.location.replace('./../index.html');
+  }
 		document.getElementById("img1").style.border="0px"
 		document.getElementById("img2").style.border="0px"
 		document.getElementById("img3").style.border="0px"
@@ -132,6 +135,9 @@ function hide(){
 window.onload = function() {
     document.getElementById("my_audio").play();
 }
+function animal(num){
+    document.getElementById("animal"+num.toString()).play();
 
+}
 // elsewhere in code
 init();
