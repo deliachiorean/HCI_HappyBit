@@ -2,14 +2,14 @@ $(document).ready(function(){
 
 	$("#slideshow > div:gt(0)").hide();
 
-var buttons = "<button class=\"slidebtn prev\">Prev</button><button class=\"slidebtn next\">Next</button\>";
+var buttons = "<button class=\"slidebtn prev\"><img width=\"20\" height=\"20\" src=\"images/prev.png\"></button><button class=\"slidebtn next\"><img width=\"25\" height=\"25\" src=\"images/next.png\"></button\>";
 
 $("#slideshow").append(buttons);
-var interval = setInterval(slide, 3000);
+var interval = setInterval(slide, 21000);
 
 function intslide(func) {
 	if (func == 'start') { 
- 	interval = setInterval(slide, 3000);
+ 	interval = setInterval(slide, 21000);
 	} else {
 		clearInterval(interval);		
 		}
@@ -24,6 +24,7 @@ function tran(a, ix, it) {
         var nextSlide = currentSlide.next('.slideitem');
         var prevSlide = currentSlide.prev('.slideitem');
 		    var reqSlide = $('.slideitem').eq(ix);// eq: elementul cu indexul
+
 
 		    
 		
@@ -95,8 +96,8 @@ document.getElementById("a8").onmouseover = function(){
 
 
 function animal(num){
-    var audio = document.getElementById("animal"+num.toString())
-    audio.play();
+    document.getElementById("animal"+num.toString()).play();
+
 }
 
 function stop(num){
@@ -108,6 +109,6 @@ function stop(num){
 window.onload=function(){
     document.getElementById("animal10").play().catch(function() {
         // do something
-        document.getElementById("animal10").play()
+        document.getElementById("animal10").play();
     });
 }
