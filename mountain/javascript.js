@@ -5,6 +5,7 @@ var restart = false;
 var icon = "sources/bear-icon.png";
 var record = 0;
 var isOnStart=true;
+var isCrash=true;
 
 $(document).ready(function () {
     startGame();
@@ -41,6 +42,7 @@ function restartGame() {
 }
 
 function startGame() {
+    isCrash=true;
     myGamePiece = new component(40, 40, icon, 10, 120, "image");
 
     myGamePiece.gravity = 0.05;
@@ -129,7 +131,14 @@ function component(width, height, color, x, y, type) {
     function setHighScore() {
         record = myGameArea.frameNo;
         $("#highScore").html("<h1>" + myGameArea.frameNo + "</h1>");
+        var audio = new Audio("./mp3/bravo.mp3");
+        audio.play();
     }
+    function haideSaMaiIncercam() {
+        var audio = new Audio("./mp3/haide.mp3");
+        audio.play();
+    }
+
 
     this.crashWith = function (otherobj) {
         var myleft = this.x;
@@ -147,7 +156,10 @@ function component(width, height, color, x, y, type) {
         if (crash == true) {
             if (record < myGameArea.frameNo) {
                 setHighScore();
+            }else if(isCrash){
+                haideSaMaiIncercam();
             }
+            isCrash=false;
         }
 
         return crash;

@@ -1,12 +1,8 @@
 var images=["iepure-1.jpg", "iepure-2.jpg","dropie-1.jpg", "dropie-2.jpg", "vulpe-1.jpg", "vulpe-2.jpg", "popandau-1.jpg", "popandau-2.jpg","arici-1.jpg", "arici-2.jpg","dihor-1.jpg", "dihor-2.jpg", "jder-1.jpg", "jder-2.jpg", "soarece-1.jpg", "soarece-2.jpg"]
 var score=0;
+var round=1;
+var inc=0;
 
-window.onload=function(){
-    document.getElementById("my_audio").play().catch(function() {
-        // do something
-        document.getElementById("my_audio").play()
-    });
-}
 
 function init(){
 	randomNumber = Math.floor(Math.random()*16);
@@ -29,29 +25,42 @@ function hide(){
 }
 
 function check(num){
-	let imgj = document.getElementById("imgjoc");
-	srcjoc = imgj.src
-	var cate = srcjoc.charAt(srcjoc.length-5)
-	if (cate == num.toString()){
-		console.log("Bravo");
-		let imgrez = document.getElementById("imgrezultat");
-		var audio = document.getElementById("bravo")
-		audio.play();
-		imgrez.src = "pictures/ok.jpg"
-		imgrez.classList.remove("hidden");
-		score=score+1;
-		document.getElementById('score').innerHTML = "Scor: " + score;
-		setTimeout(hideok, 2000);
-	}
-	else{
-		let imgrez = document.getElementById("imgrezultat");
-		var audio = document.getElementById("haide")
-		audio.play();
-		imgrez.src = "pictures/nu.jpg"
-		imgrez.classList.remove("hidden");
-		setTimeout(hide,2000);
-		console.log("Nu");
-	}
+    let imgj = document.getElementById("imgjoc");
+    srcjoc = imgj.src
+    var cate = srcjoc.charAt(srcjoc.length-5)
+    if (cate == num.toString()){
+        console.log("Bravo");
+        let imgrez = document.getElementById("imgrezultat");
+        var audio = document.getElementById("bravo")
+        audio.play();
+        imgrez.src = "pictures/ok.jpg"
+        imgrez.classList.remove("hidden");
+        if(inc==0){
+            score=score+2;
+        }
+        else{
+            score=score+1;
+        }
+        inc=0;
+        round=round+1
+        document.getElementById('score').innerHTML = "Scor: " + score;
+        setTimeout(hideok, 2000);
+        if(round==11){
+            sessionStorage.setItem('scor', score);
+            window.location.href = "document.location='./../rezultat.html";
+        }
+    }
+    else{
+
+        let imgrez = document.getElementById("imgrezultat");
+        var audio = document.getElementById("haide")
+        audio.play();
+        imgrez.src = "pictures/nu.jpg"
+        imgrez.classList.remove("hidden");
+        setTimeout(hide,2000);
+        console.log("Nu");
+        inc=inc+1;
+    }
 }
 
 function cifre(num){
