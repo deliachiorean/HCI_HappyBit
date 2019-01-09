@@ -9,30 +9,33 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  
-	<div class="container">
-        <div class="col-1"><img src="./../resource/images/home.svg" onclick="document.location='./../index.html';return false;" alt="home"></div>
+  <div class="mainDiv">
+	<div class="container py-5">
+        <div class="col-1"><img src="./../resource/images/home.svg" onmouseover="animal(0)"  onclick="document.location='./../index.html';return false;" alt="home"></div>
+
+        <audio id="animal0">
+            <source src="inapoi_meniu.mp3"></source>
+            Your browser isn't invited for super fun audio time.
+        </audio>
 
         <audio id="my_audio">
 		    <source src="audio.aac" type="audio/ogg" />
         </audio>
 
-        <div id="score">
+        <div id="score" class="scor">
             Score: 0
         </div>
 
-        <div class="row">
-        <div class="col">  <img id="img1"  width="300" height="228" onclick="checkFunction(this)"></div>
-        <div class="col">  <img  id="img2" width="300" height="228"  onclick="checkFunction(this)"></div>
-        <div class="col"> <img  id="img3" width="300" height="228"  onclick="checkFunction(this)"></div>
-        <div class="col">  <img  id="img4" width="300" height="228"  onclick="checkFunction(this)"></div>
-        <div class="col">  <img  id="img5" width="300" height="228"  onclick="checkFunction(this)"></div>
-        <div class="col">  <img  id="img6" width="300" height="228"  onclick="checkFunction(this)"></div>
-	</div>
-		
-	
-
-</div>
+        <div class="row pt-3">
+            <div class="col">  <img id="img1"  width="300" height="228"  onclick="checkFunction(this)"></div>
+            <div class="col">  <img  id="img2" width="300" height="228"  onclick="checkFunction(this)"></div>
+            <div class="col"> <img  id="img3" width="300" height="228"  onclick="checkFunction(this)"></div>
+            <div class="col">  <img  id="img4" width="300" height="228"  onclick="checkFunction(this)"></div>
+            <div class="col">  <img  id="img5" width="300" height="228"  onclick="checkFunction(this)"></div>
+            <div class="col">  <img  id="img6" width="300" height="228"  onclick="checkFunction(this)"></div>
+	    </div>
+    </div>
+  </div>
 
     <script type="text/javascript" src="javascript.js"></script>  
 </body>

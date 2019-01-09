@@ -1,303 +1,99 @@
-function Cell(val, rev) {
-	this.value = val;
-	this.revealed = rev;
-	this.found = false;
+window.onload=function(){
+	document.getElementById("my_audio").play().catch(function() {
+			// do something
+			document.getElementById("my_audio").play()
+	});
 }
 
-function Game() {
-	this.table = null;
-	this.help = null;
-	this.state = {
-		isRevealing: false,
-		lastValue: null,
+var nrClick=0;
+var firs;
+var second;
+var match=0;
+var cards=[];
 
-		lastPos: {
-			x: null,
-			y: null
-		},
-		clickDisabled: false
+
+function initial(){
+		var arrayUsed=new Array(9);
+		var num=new Array(16);
+	for (var i = 0; i < 9; i++)
+  {
+    arrayUsed[i] = 0;
+  }
+	for (var i = 0; i < 16; i++)
+  {
+    randomNumber = Math.floor(Math.random()*9);
+	console.log(randomNumber);
+    if ((arrayUsed[randomNumber]==0 || arrayUsed[randomNumber]==1) && randomNumber!=0) 
+    {
+      arrayUsed[randomNumber]=arrayUsed[randomNumber]+1;
+	  num[i]=randomNumber;
+    }
+    else
+    {
+      i--;
+    }
+  }
+	for(var i=0;i<16;i++){
+		cards[i]="sources/c"+num[i]+".png";
+		console.log(cards[i]);
 	}
-
-	this.run = function() {
-		this.generateNewTable();
-
-		this.help = new Casuta();
-		this.addCellActions(this.table, this.help.loadTable, this.state);
-        this.help.loadTable(this.table);
-	}
-
-	this.generateNewTable = function() {
-		this.table = [];
-		//init matrix
-		for (var i = 0; i < 4; i++) {
-			this.table[i] = [];
-		}
-		var numbers = this.getNumbersShuffled(24);
-		var numberIndex = 0;
-		for (var i = 0; i < 4; i++) {
-			for (var j = 0; j < 4; j++) {
-				this.table[i][j] = new Cell(numbers[numberIndex], false);
-				numberIndex++;
-			}
-		}
-	}
-
-	//returneaza sirul de numere , fiecare cu o pereche si amestecate
-	this.getNumbersShuffled = function(maxNum) {
-		var numbers = [];
-		for (var i = 0; i < 16 - 1; i += 2) {
-			var randValue = Math.floor(Math.random() * maxNum);
-			//nr aleator
-			numbers[i] = randValue 
-			//pereche
-			numbers[i + 1] = randValue; 
-		}
-		numbers = this.shuffle(numbers);
-		return numbers;
-	}
-
-	this.shuffle = function(a) {
-	    for (let i = a.length - 1; i > 0; i--) {
-	        const j = Math.floor(Math.random() * (i + 1));
-	        [a[i], a[j]] = [a[j], a[i]];
-	    }
-	    return a;
-	}
-
-	this.addCellActions = function(table, loadTable, state) {
-        var tds = document.querySelectorAll("td");
-        console.log(tds);
-        var pairs=0;
-		for (var i = 0; i < tds.length; i++) {
-			tds[i].onclick = function() {
-				if (!state.clickDisabled) {
-					var y = this.cellIndex;
-					var x = this.parentNode.rowIndex;
-					
-					if (!state.isRevealing) {
-						//primul din pereche
-
-						state.lastValue = table[x][y].value;
-						state.lastPos.x = x;
-						state.lastPos.y = y;
-						table[x][y].revealed = true;
-						state.isRevealing = true;
-					} else {
-						//verfifcam daca se potrivesc
-						if (x !== state.lastPos.x || y !== state.lastPos.y) {
-							
-							if (state.lastValue !== table[x][y].value) {
-								table[x][y].revealed = true;
-								state.clickDisabled = true; 
-								//dupa 2 secunde facem disable
-								setTimeout(function() { 
-									table[state.lastPos.x][state.lastPos.y].revealed = false;
-									table[x][y].revealed = false;
-									loadTable(table);
-									state.clickDisabled = false;
-								}, 2000);
-								
-							} else { 
-								//am gasit corespondeta
-								table[state.lastPos.x][state.lastPos.y].revealed = true;
-								table[x][y].revealed = true;
-								//marcam perechea ca gasita
-								table[state.lastPos.x][state.lastPos.y].found = true;
-                                table[x][y].found = true;
-                                pairs++;
-                            }
-							
-                            state.isRevealing = false;
-                            
-						}
-						
-					}
-					
-					loadTable(table);
-                }
-                
-            }
-            
-        }
-        
-        
-	}
-
-	this.disableActions = function() {
-		var tds = document.querySelectorAll("td");
-		for (var i = 0; i < tds.length; i++) {
-			tds[i].onclick = null;
-		}
-	}
-
 }
+initial();
 
-function Casuta() {
-	this.loadTable = function(table) {
-		var tds = document.querySelectorAll("td");
-		var i = 0, j = 0;
-		var tdIndex = 0;
-		for (var i = 0; i < 4; i++) {
-			for (var j = 0; j < 4; j++) {
-				if (table[i][j].found) {
-					tds[tdIndex].onclick = null;
-					
-				}
-				if (table[i][j].revealed) {
-					console.log("url(\"./animale/card\"" + table[i][j].value + ")");
-                    tds[tdIndex].style.backgroundImage = "url(\"animale/card" + table[i][j].value + ".jpg\")";
-                    tds[tdIndex].style.backgroundColor = "transparent";
-                    tds[tdIndex].innerText = "";
-                    
-                    
-				} else {
-					tds[tdIndex].style.backgroundImage = "none";
-					tds[tdIndex].style.backgroundColor = "teal";
-					tds[tdIndex].innerText = "?";
-				}
-				tdIndex++;
-			}
-		}
-	};
-
+function alegere(card){
+	if(nrClick==0)
+	{
+		first=card;
+		document.images[card].src=cards[card];
+		nrClick=1;
+	}
+	else if(nrClick==1)
+	{
+		nrClick=2;
+		second=card;
+		document.images[card].src=cards[card];
+		timer=setInterval(control,500);
+	}
+	else{
+		alert("you can click on an image once!!1");
+	}
 }
-
-window.onload = function() {
-	var game = new Game();
-	game.run();
+function control(){
+	clearInterval(timer);
+	nrClick=0;
+	if(cards[first]==cards[second]){
+		match++;
+		if(match==8)
+		var audio = document.getElementById("bravo")
+		audio.play();
+	}else{
+		document.images[first].src="forest.jpg";
+		document.images[second].src="forest.jpg";
+	}
 }
 
 
-// $(document).ready(function(){
-//
-// 	$("#slideshow > div:gt(0)").hide();
-//
-// var buttons = "<button class=\"slidebtn prev\">Prev</button><button class=\"slidebtn next\">Next</button\>";
-//
-// $("#slideshow").append(buttons);
-// var interval = setInterval(slide, 3000);
-//
-// function intslide(func) {
-// 	if (func == 'start') {
-//  	interval = setInterval(slide, 3000);
-// 	} else {
-// 		clearInterval(interval);
-// 		}
-// }
-//
-// function slide() {
-// 		tran('next', 0, 1200);
-// }
-//
-// function tran(a, ix, it) {
-//         var currentSlide = $('.current');
-//         var nextSlide = currentSlide.next('.slideitem');
-//         var prevSlide = currentSlide.prev('.slideitem');
-// 		    var reqSlide = $('.slideitem').eq(ix);// eq: elementul cu indexul
-//
-//
-//
-//         if (nextSlide.length == 0) {
-//             nextSlide = $('.slideitem').first();
-//             }
-//
-//         if (prevSlide.length == 0) {
-//             prevSlide = $('.slideitem').last();
-//             }
-//
-// 		if (a == 'next') {
-// 			var Slide = nextSlide;
-// 			}
-// 			else if (a == 'prev') {
-// 				var Slide = prevSlide;
-// 				}
-// 				else {
-// 					var Slide = reqSlide;
-// 					}
-//
-//         currentSlide.fadeOut(it).removeClass('current');
-//         Slide.fadeIn(it).addClass('current');
-//
-//
-// }
-//
-// $('.next').on('click', function(){
-// 		intslide('stop');
-// 		tran('next', 0, 400);
-// 		intslide('start');
-// 	});//next
-//
-// $('.prev').on('click', function(){
-// 		intslide('stop');
-// 		tran('prev', 0, 400);
-// 		intslide('start');
-// 	});//prev
-//
-//
-// });$(document).ready(function(){
-//
-// 	$("#slideshow > div:gt(0)").hide();
-//
-// var buttons = "<button class=\"slidebtn prev\">Prev</button><button class=\"slidebtn next\">Next</button\>";
-//
-// $("#slideshow").append(buttons);
-// var interval = setInterval(slide, 3000);
-//
-// function intslide(func) {
-// 	if (func == 'start') {
-//  	interval = setInterval(slide, 3000);
-// 	} else {
-// 		clearInterval(interval);
-// 		}
-// }
-//
-// function slide() {
-// 		tran('next', 0, 1200);
-// }
-//
-// function tran(a, ix, it) {
-//         var currentSlide = $('.current');
-//         var nextSlide = currentSlide.next('.slideitem');
-//         var prevSlide = currentSlide.prev('.slideitem');
-// 		    var reqSlide = $('.slideitem').eq(ix);// eq: elementul cu indexul
-//
-//
-//
-//         if (nextSlide.length == 0) {
-//             nextSlide = $('.slideitem').first();
-//             }
-//
-//         if (prevSlide.length == 0) {
-//             prevSlide = $('.slideitem').last();
-//             }
-//
-// 		if (a == 'next') {
-// 			var Slide = nextSlide;
-// 			}
-// 			else if (a == 'prev') {
-// 				var Slide = prevSlide;
-// 				}
-// 				else {
-// 					var Slide = reqSlide;
-// 					}
-//
-//         currentSlide.fadeOut(it).removeClass('current');
-//         Slide.fadeIn(it).addClass('current');
-//
-//
-// }
-//
-// $('.next').on('click', function(){
-// 		intslide('stop');
-// 		tran('next', 0, 400);
-// 		intslide('start');
-// 	});//next
-//
-// $('.prev').on('click', function(){
-// 		intslide('stop');
-// 		tran('prev', 0, 400);
-// 		intslide('start');
-// 	});//prev
-//
-//
-// });
+function PlaySound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.play();
+}
+
+function StopSound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.pause();
+    thissound.currentTime = 0;
+}
+
+
+
+
+function animal(num){
+	var audio = document.getElementById("animal"+num.toString())
+	audio.play();
+}
+
+function stop(num){
+	var thissound=document.getElementById("animal"+num.toString());
+	thissound.pause();
+	thissound.currentTime = 0;
+}

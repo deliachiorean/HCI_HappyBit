@@ -9,50 +9,52 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<div class="mainDiv">
     <div class="container py-5">
 		<div class="row">
 			<div class="col-1"><img src="./../resource/images/home.svg" onmouseover="animal(9)" onmouseout="stop(9)" onclick="document.location='./../index.html';return false;" alt="home"></div>
 		</div>
-		<audio id="my_audio">
-			<source src="pictures/incepe_joc_numarat.mp3" type="audio/mpeg">
-		</audio>
-		<audio id="animal1">
-			<source src="pictures/iepure_camp.mp3"></source>
-			Your browser isn't invited for super fun audio time.
-		</audio>
-		<audio id="animal2">
-			<source src="pictures/dropie.mp3"></source>
-			Your browser isn't invited for super fun audio time.
-		</audio>
-		<audio id="animal3">
-			<source src="pictures/vulpe.mp3"></source>
-			Your browser isn't invited for super fun audio time.
-		</audio>
-		<audio id="animal4">
-			<source src="pictures/popandau.mp3"></source>
-			Your browser isn't invited for super fun audio time.
-		</audio>
-		<audio id="animal5">
-			<source src="pictures/arici.mp3"></source>
-			Your browser isn't invited for super fun audio time.
-		</audio>
-		<audio id="animal6">
-			<source src="pictures/dihor.mp3"></source>
-			Your browser isn't invited for super fun audio time.
-		</audio>
-		<audio id="animal7">
-			<source src="pictures/jder.mp3"></source>
-			Your browser isn't invited for super fun audio time.
-		</audio>
-		<audio id="animal8">
-			<source src="pictures/soarece_camp.mp3"></source>
-			Your browser isn't invited for super fun audio time.
-		</audio>
-		<audio id="animal9">
-			<source src="pictures/inapoi_meniu.mp3"></source>
-			Your browser isn't invited for super fun audio time.
-		</audio>
-		<div class="divspatiu"></div>
+		<div class="row pt-5">
+			<audio id="my_audio">
+				<source src="pictures/incepe_joc_numarat.mp3" type="audio/mpeg">
+			</audio>
+			<audio id="animal1">
+				<source src="pictures/iepure_camp.mp3"></source>
+				Your browser isn't invited for super fun audio time.
+			</audio>
+			<audio id="animal2">
+				<source src="pictures/dropie.mp3"></source>
+				Your browser isn't invited for super fun audio time.
+			</audio>
+			<audio id="animal3">
+				<source src="pictures/vulpe.mp3"></source>
+				Your browser isn't invited for super fun audio time.
+			</audio>
+			<audio id="animal4">
+				<source src="pictures/popandau.mp3"></source>
+				Your browser isn't invited for super fun audio time.
+			</audio>
+			<audio id="animal5">
+				<source src="pictures/arici.mp3"></source>
+				Your browser isn't invited for super fun audio time.
+			</audio>
+			<audio id="animal6">
+				<source src="pictures/dihor.mp3"></source>
+				Your browser isn't invited for super fun audio time.
+			</audio>
+			<audio id="animal7">
+				<source src="pictures/jder.mp3"></source>
+				Your browser isn't invited for super fun audio time.
+			</audio>
+			<audio id="animal8">
+				<source src="pictures/soarece_camp.mp3"></source>
+				Your browser isn't invited for super fun audio time.
+			</audio>
+			<audio id="animal9">
+				<source src="pictures/inapoi_meniu.mp3"></source>
+				Your browser isn't invited for super fun audio time.
+			</audio>
+		</div>
 		<div class="row">
 		  <div class="col-6 col-sm-3">
 			<h2>Iepure de câmp</h2>
@@ -89,19 +91,13 @@
 			<img src="pictures/soarece-1.jpg" class="rounded" alt="Imagine strut" width="250" height="150" onmouseover="animal(8)" onmouseout="stop(8)">
 		  </div>
 		</div>
-		<div class="divspatiu"></div>
-		<div class="container2">
-		  <div class="row">
-			<div class="col-md-3 offset-md-5">
-				<div>
-				<form action="joc.html" target="_top">
-				<input type="image" src="pictures/start.png" alt="Buton start joc" width="150" height="150">
-				</form>
-				</div>
-			</div>
-		  </div>
+		<div class="container2 pt-5">
+			<form action="joc.html" target="_top">
+				<button class="startbtn" onclick="startGame();"><img class="startImage" src="pictures/start.png" alt="Buton start joc" width="150" height="150"></button>
+			</form>
 		</div>
-    </div>
-    <script type="text/javascript" src="javascript.js"></script>  
+		</div>
+</div>
+    <script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
