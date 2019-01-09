@@ -11,6 +11,9 @@
 	transform: translateY(-50%);
 }*/
 
+.div{
+	margin: 20px;
+}
 .hidden {
 display: none;
 }
