@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c73e5185-d906-4fca-9975-1e0129ec8280" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mountain/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mountain/sources/crowns.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mountain/sources/replay.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jocuri-campie/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jocuri-munte/animate.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jocuri-campie/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jocuri-campie/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jocuri-munte/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jocuri-munte/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mountain/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mountain/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mountain/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/mountain/javascript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mountain/mp3/indicatii_paul.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/mountain/mp3/indicatii_paul.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mountain/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/mountain/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,32 +32,32 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="5" />
-          <entry key="html" value="32" />
+          <entry key="css" value="9" />
+          <entry key="html" value="37" />
           <entry key="js" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
-          <entry key="HTML" value="32" />
+          <entry key="CSS" value="9" />
+          <entry key="HTML" value="37" />
           <entry key="JavaScript" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="135" />
-          <entry key="html" value="263" />
+          <entry key="html" value="319" />
           <entry key="js" value="294" />
-          <entry key="txt" value="43" />
+          <entry key="txt" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="135" />
-          <entry key="HTML" value="263" />
+          <entry key="HTML" value="319" />
           <entry key="JavaScript" value="294" />
-          <entry key="PLAIN_TEXT" value="43" />
+          <entry key="PLAIN_TEXT" value="85" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -140,29 +139,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mountain/javascript.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="43" column="31" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mountain/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+            <state relative-caret-position="280">
+              <caret line="35" column="79" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="79" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -170,8 +154,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mountain/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+            <state relative-caret-position="153">
+              <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -182,6 +166,35 @@
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#3;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jocuri-campie/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="45" column="87" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="87" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jocuri-munte/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,8 +223,10 @@
       <find>bounceinup</find>
       <find>fadeindownbi</find>
       <find>game</find>
-      <find>component</find>
       <find>scor</find>
+      <find>component</find>
+      <find>dife</find>
+      <find>boun</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -258,9 +273,6 @@
         <option value="$PROJECT_DIR$/savana/style.css" />
         <option value="$PROJECT_DIR$/desert/style.css" />
         <option value="$PROJECT_DIR$/desert/joc.html" />
-        <option value="$PROJECT_DIR$/jocuri-campie/index.html" />
-        <option value="$PROJECT_DIR$/jocuri-munte/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/invata-munte/index.html" />
         <option value="$PROJECT_DIR$/desert/index.html" />
         <option value="$PROJECT_DIR$/jungle/index.html" />
@@ -273,8 +285,11 @@
         <option value="$PROJECT_DIR$/polar/javascript.js" />
         <option value="$PROJECT_DIR$/mountain/animate.css" />
         <option value="$PROJECT_DIR$/mountain/javascript.js" />
-        <option value="$PROJECT_DIR$/mountain/index.html" />
         <option value="$PROJECT_DIR$/mountain/style.css" />
+        <option value="$PROJECT_DIR$/mountain/index.html" />
+        <option value="$PROJECT_DIR$/jocuri-munte/index.html" />
+        <option value="$PROJECT_DIR$/jocuri-campie/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -342,18 +357,17 @@
             <path>
               <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="invata-campie" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="jocuri-campie" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="jocuri-munte" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="mountain" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="HCI_HappyBit" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="mountain" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="mp3" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -364,6 +378,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ubb\UBB\HCI\proiect\HCI_HappyBit" />
+      <recent name="D:\ubb\UBB\HCI\proiect\HCI_HappyBit\jocuri-campie" />
+      <recent name="D:\ubb\UBB\HCI\proiect\HCI_HappyBit\jocuri-munte" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -438,21 +459,28 @@
       <option name="project" value="LOCAL" />
       <updated>1545568015681</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Mountain: improvement">
+      <created>1547040532398</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1547040532398</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39224000" />
+    <option name="totallyTimeSpent" value="40420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14077991" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14077991" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49966952" weight="0.32867134" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -461,7 +489,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49504295" weight="0.09078014" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.504957" side_tool="true" visible="true" weight="0.08951049" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50033045" side_tool="true" visible="true" weight="0.08951049" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49834764" weight="0.32768363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -481,7 +509,8 @@
     <MESSAGE value="Iulia &amp; Home Button" />
     <MESSAGE value="Executabil" />
     <MESSAGE value="campie invatam" />
-    <option name="LAST_COMMIT_MESSAGE" value="campie invatam" />
+    <MESSAGE value="Mountain: improvement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mountain: improvement" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/jungle/animale/card0.jpg" />
@@ -493,7 +522,6 @@
     <entry file="file://$PROJECT_DIR$/style.css" />
     <entry file="file://$PROJECT_DIR$/desert/style.css" />
     <entry file="file://$PROJECT_DIR$/desert/joc.html" />
-    <entry file="file://$PROJECT_DIR$/jocuri-munte/index.html" />
     <entry file="file://$PROJECT_DIR$/jungle/index.html" />
     <entry file="file://$PROJECT_DIR$/plain/index.html" />
     <entry file="file://$PROJECT_DIR$/invata-munte/index.html" />
@@ -512,11 +540,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jocuri-campie/javascript.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jocuri-campie/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-53" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/polar/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -553,17 +576,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mountain/animate.css">
+    <entry file="file://$PROJECT_DIR$/mountain/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="1441" column="14" selection-start-line="1441" selection-start-column="1" selection-end-line="1441" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" column="15" lean-forward="true" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+        <state relative-caret-position="334">
+          <caret line="51" column="11" lean-forward="true" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -574,10 +590,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jocuri-munte/animate.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jocuri-campie/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jocuri-munte/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="49" column="18" lean-forward="true" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animate.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mountain/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="1441" column="14" selection-start-line="1441" selection-start-column="1" selection-end-line="1441" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jocuri-campie/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="45" column="87" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="87" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mountain/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="104" column="21" lean-forward="true" selection-start-line="104" selection-start-column="21" selection-end-line="104" selection-end-column="21" />
+        <state relative-caret-position="153">
+          <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="62" />
           <folding>
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -592,10 +651,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mountain/style.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+        <state relative-caret-position="280">
+          <caret line="35" column="79" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="79" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
