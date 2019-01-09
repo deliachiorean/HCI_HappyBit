@@ -11,8 +11,10 @@ function init() {
     apasat=0;
 
     if (score == 10){
-        window.location.replace('./../index.html');
-    }
+            sessionStorage.setItem('scor', score);
+            window.location.href = "document.location='./../rezultat.html";
+        }
+
 
 
 
