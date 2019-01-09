@@ -1,77 +1,97 @@
 <!DOCTYPE html>
-<html>
-	<head>
-
-        <title>Gaseste perechea</title>
-        <link rel="stylesheet" href="../resource/bootstrap/css/bootstrap.min.css">
-        <script src="../resource/bootstrap/js/bootstrap.min.js"></script>
-        <script src="../resource/jquery/jquery-3.3.1.js"></script>
-		<link href="style.css" rel="stylesheet" type="text/css">
-		<script src="javascript.js"></script>
-	</head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gaseste perechea</title>
+  <link rel="stylesheet" href="../resource/bootstrap/css/bootstrap.min.css">
+  <script src="../resource/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../resource/jquery/jquery-3.3.1.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<a href="./../index.html" id="home" onmouseover="animal(1)" onmouseout="stop(1)">HOME</a>
-
-<div class="mainDiv">
         <div class="container py-5">
-
-             
-<div id="title">
-    <p onmouseover="PlaySound('mySound')" 
-    onmouseout="StopSound('mySound')">In casutele de mai jos se afla 6 perechi de animale. 
-                                        O pereche este formata din 2 animale la fel. </p>
-    <p><h1>Haideti sa le gasim!</h1></p>
-    <audio id='mySound' src='indicatiiMemoryGame.mp3'></audio>
-</div>
-
-<audio id="my_audio" onmouseover="paly()">
-        <source src="indicatii_delia.mp3" type="audio/mpeg">
-        Your browser isn't invited for super fun audio time.
-</audio>
-<audio id="animal1">
-    <source src="inapoi_meniu.mp3"></source>
-    Your browser isn't invited for super fun audio time.
-</audio>
-
-    <center>
-        <table >
-            <tr>
-                <td><img src="forest.jpg" onclick="alegere(0)"></td>
-                <td><img src="forest.jpg" onclick="alegere(1)"></td>
-                <td><img src="forest.jpg" onclick="alegere(2)"></td>
-                <td><img src="forest.jpg" onclick="alegere(3)"></td>
-            </tr>
-            <tr>
-                <td><img src="forest.jpg" onclick="alegere(4)"></td>
-                <td><img src="forest.jpg" onclick="alegere(5)"></td>
-                <td><img src="forest.jpg" onclick="alegere(6)"></td>
-                <td><img src="forest.jpg" onclick="alegere(7)"></td>
-            <tr>
-                <td><img src="forest.jpg" onclick="alegere(8)"></td>
-                <td><img src="forest.jpg" onclick="alegere(9)"></td>
-                <td><img src="forest.jpg" onclick="alegere(10)"></td>
-                <td><img src="forest.jpg" onclick="alegere(11)"></td>
-            </tr>
-            <tr>
-                <td><img src="forest.jpg" onclick="alegere(12)"></td>
-                <td><img src="forest.jpg" onclick="alegere(13)"></td>
-                <td><img src="forest.jpg" onclick="alegere(14)"></td>
-                <td><img src="forest.jpg" onclick="alegere(15)"></td>
-            </tr>
-            </tr>
-
-        </table>
-        </center>
+                <div class="row">
+                    <div class="col-1"><img src="./../resource/images/home.svg" onmouseover="animal(1)" onmouseout="stop(1)" onclick="document.location='./../index.html';return false;" alt="home">
+                    </div>
+                    <div class="col-2"><img src="help.svg" onmouseover="animal(2)" onmouseout="stop(2)" ;return false;" alt="help">
+                    </div>
+                </div>
         <audio id="bravo">
-				<source src="aireusit_bravo.mp3"></source>
-				Your browser isn't invited for super fun audio time.
+            <source src="aireusit_bravo.mp3"></source>
+            Your browser isn't invited for super fun audio time.
+            </audio>
+                
+        <audio id="my_audio" onmouseover="paly()">
+                <source src="indicatiiMemoryGame.mp3" type="audio/mpeg">
+                Your browser isn't invited for super fun audio time.
         </audio>
-    </div>
-    </div>
-    <script type="text/javascript" src="javascript.js"></script>  
-    <footer></footer>
+        <audio id="animal2" onmouseover="paly()">
+                <source src="indicatiiMemoryGame.mp3" type="audio/mpeg">
+                Your browser isn't invited for super fun audio time.
+        </audio>
+        <audio id="animal1">
+            <source src="inapoi_meniu.mp3"></source>
+            Your browser isn't invited for super fun audio time.
+        </audio>
+        <div class="row">
+        <section class="memory-game" id="game" style="display:none">
+                <div class="memory-card" data-framework="URS">
+                  <img class="front-face" src="sources/c0.png" alt="URS" />
+                  <img class="back-face" src="forest.jpg" alt="Forest" />
+                </div>
+                <div class="memory-card" data-framework="URS">
+                        <img class="front-face" src="sources/c0.png" alt="URS" />
+                        <img class="back-face" src="forest.jpg" alt="Forest" />
+                      </div>
+
+                <div class="memory-card" data-framework="RAS">
+                  <img class="front-face" src="sources/lynx.png" alt="RAS" />
+                  <img class="back-face" src="forest.jpg" alt="Forest" />
+                </div>
+                <div class="memory-card" data-framework="RAS">
+                        <img class="front-face" src="sources/lynx.png" alt="RAS" />
+                        <img class="back-face" src="forest.jpg" alt="Forest" />
+                      </div>
+            
+                <div class="memory-card" data-framework="VULPE">
+                  <img class="front-face" src="sources/c2.png" alt="VULPE" />
+                  <img class="back-face" src="forest.jpg" alt="Forest" />
+                </div>
+                <div class="memory-card" data-framework="VULPE">
+                  <img class="front-face" src="sources/c2.png" alt="VULPE" />
+                  <img class="back-face" src="forest.jpg" alt="Forest" />
+                </div>
+            
+                <div class="memory-card" data-framework="CERB">
+                  <img class="front-face" src="sources/c3.png" alt="CERB" />
+                  <img class="back-face" src="forest.jpg" alt="Forest" />
+                </div>
+                <div class="memory-card" data-framework="CERB">
+                        <img class="front-face" src="sources/c3.png" alt="CERB" />
+                        <img class="back-face" src="forest.jpg" alt="Forest" />
+                </div>
+            
+                <div class="memory-card" data-framework="LUP">
+                  <img class="front-face" src="sources/c4.png" alt="LUP" />
+                  <img class="back-face" src="forest.jpg" alt="Forest" />
+                </div>
+                <div class="memory-card" data-framework="LUP">
+                        <img class="front-face" src="sources/c4.png" alt="LUP" />
+                        <img class="back-face" src="forest.jpg" alt="Forest" />
+                </div>
+            
+                <div class="memory-card" data-framework="CASTOR">
+                  <img class="front-face" src="sources/c5.png" alt="CASTOR" />
+                  <img class="back-face" src="forest.jpg" alt="Forest" />
+                </div>
+                <div class="memory-card" data-framework="CASTOR">
+                        <img class="front-face" src="sources/c5.png" alt="CASTOR" />
+                        <img class="back-face" src="forest.jpg" alt="Forest" />
+                </div>
+              </section>
+              </div>
+  </div>
+
+  <script src="javascript.js"></script>
 </body>
-
 </html>
-
-	
