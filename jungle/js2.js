@@ -2,20 +2,14 @@ window.onload=function(){
 	document.getElementById("my_audio").play().catch(function() {
 			// do something
 			document.getElementById("my_audio").play()
-  });
+	});
 }
-
-$(document).ready(function() {
-  setTimeout(function() {
-    $('#game').show() }, 10000);
-  })
 
 const cards = document.querySelectorAll('.memory-card');
 
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
-let counter=0;
 
 function flipCard() {
   if (lockBoard) return;
@@ -46,21 +40,8 @@ function checkForMatch() {
 function disableCards() {
   firstCard.removeEventListener('click', flipCard);
   secondCard.removeEventListener('click', flipCard);
-  counter++;
-  console.log(counter);
-  if (counter==6){
-    var audio = document.getElementById("bravo")
-    audio.play();
-    refresh();
-  }
+
   resetBoard();
-}
-
-function refresh() {
-
-  setTimeout(function () {
-      location.reload()
-  }, 5000);
 }
 
 function unflipCards() {

@@ -16,3 +16,15 @@ window.onload=function(){
         document.getElementById("animal10").play()
     });
 }
+
+
+$(document).ready(function() {
+    setTimeout(function() {
+      $('#row1').show() }, 3500);
+    setTimeout(function() {
+        $('#row2').show() }, 3500);
+    setTimeout(function() {
+        var audio = document.getElementById("animal12")
+        audio.play();
+        }, 4000);
+    })
