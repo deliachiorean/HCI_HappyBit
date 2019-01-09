@@ -15,8 +15,16 @@ body{
 .mainDiv{
 	padding: 30px;
 }
-
+#scorulmeu{
+	font-size: 100px;
+}
 .scor{
 	color: white;
 	font-size: 30px;
+}
+#imgrez {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
 }

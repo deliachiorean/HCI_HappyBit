@@ -7,6 +7,7 @@
     <script src="../resource/jquery/jquery-3.3.1.js"></script>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
 </head>
 <body >
 <div class="mainDiv">
@@ -41,27 +42,34 @@
     <div class="container py-5">
         <div class="titlu text-center py-3">
             <div class="row">
-                <div class="col-1"><img src="./../resource/images/home.svg" onclick="document.location='./../index.html';return false;" alt="home"></div>
-                <div class="col-1"><img src="sources/arrow-up-icon.png" alt="accelerate" height="60" width="60" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)"></div>
-                <div class="col-1"><img src="sources/reload.png" alt="play" height="60" width="60" onclick="restartGame()"></div>
-                <div class="align-self-end">
-                    <div id="scorr"></div>
+                <div class="col-1"><img src="./../resource/images/home.svg" height="60" width="60" onclick="document.location='./../index.html';return false;" alt="home"></div>
+                <!--<div class="col-2"><img src="sources/arrow-up-icon.png" alt="accelerate" height="60" width="60" onmousedown="accelerate(-0.1)" onmouseup="accelerate(0.05)"></div>-->
+                <div class="col-2 bounceIn" style="animation-delay: 12s;"><img src="sources/replay.png" alt="play" height="60" width="60" onclick="restartGame()"></div>
+                <div class="col-5">
+                    <div id="scorr">
+                        <h1>Scor: 0</h1>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <img src="sources/crowns.png" class="highScoreDiv" alt="highScore" height="60" width="60">
+                    <div id="highScore" class="highScoreDiv"></div>
                 </div>
             </div>
         </div>
         <br>
         <div class="row no-gutters">
             <div class="col-md-2 no-gutters">
-                <div class="col-md-12">
+                <div class="col-md-12 bounceIn" style="animation-delay: 17s;">
                     <img src="sources/bear.jpg" alt="urs" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/bear-icon.png')" onmouseover="animal(1)" onmouseout="stop(1)">
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12 bounceIn" style="animation-delay: 17s;">
                     <img src="sources/fox.jpg" alt="vulpe" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/fox-icon.png')" onmouseover="animal(2)" onmouseout="stop(2)">
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12 bounceIn" style="animation-delay: 17s;">
                     <img src="sources/wolf.jpeg" alt="lup" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/wolf-icon.png')" onmouseover="animal(3)" onmouseout="stop(3)">
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12 bounceIn" style="animation-delay: 17s;">
                     <img src="sources/cerb.jpg" alt="cerb" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/cerb-icon.png')" onmouseover="animal(4)" onmouseout="stop(4)">
                 </div>
             </div>
@@ -75,16 +83,16 @@
                 <br>
             </div>
             <div class="col-md-2 no-gutters">
-                <div class="col-md-12">
+                <div class="col-md-12 bounceIn" style="animation-delay: 17s;">
                     <img src="sources/vidra.jpg" alt="vidra" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/vidra-icon.png')" onmouseover="animal(5)" onmouseout="stop(5)">
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12 bounceIn" style="animation-delay: 17s;">
                     <img src="sources/mistret.jpg" alt="mistret" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/mistret-icon.png')" onmouseover="animal(6)" onmouseout="stop(6)">
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12 bounceIn" style="animation-delay: 17s;">
                     <img src="sources/goat.jpg" alt="capra neagra" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/goat-icon.png')" onmouseover="animal(7)" onmouseout="stop(7)">
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12 bounceIn" style="animation-delay: 17s;">
                     <img src="sources/castor.jpg" alt="castor" class="animal-option rounded animal-option-side" onclick="changeAnimal('sources/castor-icon.png')" onmouseover="animal(8)" onmouseout="stop(8)">
                 </div>
             </div>

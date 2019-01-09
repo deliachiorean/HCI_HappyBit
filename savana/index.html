@@ -1,22 +1,65 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Savanna</title>
-  <link rel="stylesheet" href="../resource/bootstrap/css/bootstrap.min.css">
-  <script src="../resource/bootstrap/js/bootstrap.min.js"></script>
-  <script src="../resource/jquery/jquery-3.3.1.js"></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-  <script type="text/javascript" src="javascript.js"></script> 
+    <meta charset="utf-8">
+    <title>Puzzle</title>
+    <style type="text/css">
+        body {
+            background-image: url("index.jpg");
+            background-size: cover;
+            text-align: center;
+        }
+
+        div {
+            padding-top: 17%;
+        }
+
+        .startImage:hover {
+            animation: shake 0.5s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes shake {
+            0% {
+                transform: translate(1px, 1px) rotate(0deg);
+            }
+            10% {
+                transform: translate(-1px, -2px) rotate(-1deg);
+            }
+            20% {
+                transform: translate(-3px, 0px) rotate(1deg);
+            }
+            30% {
+                transform: translate(3px, 2px) rotate(0deg);
+            }
+            40% {
+                transform: translate(1px, -1px) rotate(1deg);
+            }
+            50% {
+                transform: translate(-1px, 2px) rotate(-1deg);
+            }
+            60% {
+                transform: translate(-3px, 1px) rotate(0deg);
+            }
+            70% {
+                transform: translate(3px, 1px) rotate(-1deg);
+            }
+            80% {
+                transform: translate(-1px, -1px) rotate(1deg);
+            }
+            90% {
+                transform: translate(1px, 2px) rotate(0deg);
+            }
+            100% {
+                transform: translate(1px, -2px) rotate(-1deg);
+            }
+        }
+
+    </style>
 </head>
 <body>
-  <audio autoplay>
-    <source src="apasa.mp3" type="audio/mpeg">
-  </audio>
-  <div class="startBody">
-    <div class="col-1 pt-4"><img src="./../resource/images/home.svg" onclick="document.location='./../index.html';return false;" alt="home" height="80" width="90"></div>
-    <h1>Ghiceste câte animale lipsesc</h1>
-    <button class="startbtn" onclick="startGame();"><img class="startImage" src="images/start.png"></button>
-  </div>
+<!--to do inregistrare cu indicatie cand primesc de la andra fisieru-->
+<div><a data-grid="2"><img src="start.png" class="startImage" width="250" height="250" title="start" alt="start"
+                           onclick="document.location='./start.html';return false;"></a></div>
 </body>
 </html>
