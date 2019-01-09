@@ -44,8 +44,15 @@ canvas {
 .no-gutters {
     margin-right: 0;
     margin-left: 0;
-  
-    
+}
+
+.highScoreDiv{
+    float: left;
+}
+#highScore{
+    padding-left: 10px;
+    padding-top: 5px;
+    color: white;
 }
 
 .mainDiv{
