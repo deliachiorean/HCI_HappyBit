@@ -7,166 +7,89 @@
     <link rel="stylesheet" href="pure.css">
     <link rel="stylesheet" href="responsive.css">
     <style>
-        body {
-            color: #777;
-        }
-
-        ::selection {
-            color: #fff;
-            background: #328efd;
-        }
-
-        ::-moz-selection {
-            color: #fff;
-            background: #328efd;
-        }
-
-        .inline-code {
-            padding: 1px 5px;
-            background: #eee;
-            border-radius: 2px;
-        }
-
-        .pure-button {
-            margin: 5px 0;
-            text-decoration: none !important;
-        }
-
-        .button-lg {
-            margin: 5px 0;
-            padding: .65em 1.6em;
-            font-size: 105%;
-            background-color: transparent;
-            background-repeat: no-repeat;
+        body {color: #777; }
+        ::selection { color: #fff; background: #328efd; }
+        ::-moz-selection { color: #fff; background: #328efd; }
+        .inline-code { padding: 1px 5px; background: #eee; border-radius: 2px; }
+        .pure-button { margin: 5px 0; text-decoration: none !important; }
+        .button-lg { margin: 5px 0; padding: .65em 1.6em; font-size: 105%; background-color: transparent;
+            background-repeat:no-repeat;
             border: none;
-            cursor: pointer;
+            cursor:pointer;
             overflow: hidden;
-            outline: none;
-        }
-
-        .snappuzzle-wrap {
-            position: relative;
-            display: block;
-        }
-
-        .snappuzzle-pile {
-            position: relative;
-        }
-
-        .snappuzzle-piece {
-            cursor: move;
-        }
-
-        .snappuzzle-slot {
-            position: absolute;
-            background: #fff;
-            opacity: .8;
-        }
-
-        .snappuzzle-slot-hover {
-            background: #eee;
-        }
-
-        a {
-            float: right;
+            outline:none;}
+        .snappuzzle-wrap { position: relative; display: block; }
+        .snappuzzle-pile { position: relative; }
+        .snappuzzle-piece { cursor: move; }
+        .snappuzzle-slot { position: absolute; background: #fff; opacity: .8; }
+        .snappuzzle-slot-hover { background: #eee; }
+        a{
+            float:right;
+            padding-right: 20px;
         }
     </style>
 </head>
 <body>
-<a data-grid="2"><img src="home.svg" width="50" height="50" title="home" alt="home"
+    <a data-grid="2"><img src="home.svg" width="50" height="50" title="home" alt="home"
                       onclick="document.location='./../index.html';return false;"></a>
-<h1>Scor: 5</h1>
-<div id="puzzle-containment"
-     style="border-top: 1px solid #eee;border-bottom:1px solid #eee;background:#fafafa;margin:30px 0;padding:10px;text-align:center">
-    <div class="pure-g" style="max-width:1000px;margin:auto">
-        <div class="pure-u-1 pure-u-md-1-2">
-            <div style="margin:10px">
+    <audio src="felicitari.mp3" id="my_audio" loop="loop"></audio> 
+    <h1>Scor: 5</h1>
+    <div id="puzzle-containment" style="border-top: 1px solid #eee;border-bottom:1px solid #eee;background:#fafafa;margin:30px 0;padding:10px;text-align:center">
+        <div class="pure-g" style="max-width:1000px;margin:auto">
+            <div class="pure-u-1 pure-u-md-1-2"><div style="margin:10px">
                 <img id="source_image" class="pure-img" src="rata.svg">
-            </div>
-        </div>
-        <div class="pure-u-1 pure-u-md-1-2">
-            <div id="pile" style="margin:10px">
-                <div id="puzzle_solved" style="display:none;text-align:center;position:relative;top:25%">
-                    <a class="pure-button button-lg refresh" data-grid="2"><img src="refresh.svg" width="82" height="86"
-                                                                                title="restart" alt="restart"></a>
+            </div></div>
+            <div class="pure-u-1 pure-u-md-1-2">
+                <div id="pile" style="margin:10px">
+                    <div id="puzzle_solved" style="display:none;text-align:center;position:relative;top:25%">
+                        <a class="pure-button button-lg refresh" data-grid="2"><img src="refresh.svg"  width="82" height="86" title="restart" alt="restart"></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div style="max-width:800px;margin:auto;padding:0 10px 50px">
+    <div style="max-width:800px;margin:auto;padding:0 10px 50px">
 
     <div id="fb-root"></div>
     <script src="jq.js"></script>
     <script src="jqui.js"></script>
     <script src="jquery.snap-puzzle.js"></script>
     <script>
-        !function (a) {
-            function f(a, b) {
-                if (!(a.originalEvent.touches.length > 1)) {
-                    a.preventDefault();
-                    var c = a.originalEvent.changedTouches[0], d = document.createEvent("MouseEvents");
-                    d.initMouseEvent(b, !0, !0, window, 1, c.screenX, c.screenY, c.clientX, c.clientY, !1, !1, !1, !1, 0, null), a.target.dispatchEvent(d)
-                }
-            }
+        !function(a){function f(a,b){if(!(a.originalEvent.touches.length>1)){a.preventDefault();var c=a.originalEvent.changedTouches[0],d=document.createEvent("MouseEvents");d.initMouseEvent(b,!0,!0,window,1,c.screenX,c.screenY,c.clientX,c.clientY,!1,!1,!1,!1,0,null),a.target.dispatchEvent(d)}}if(a.support.touch="ontouchend"in document,a.support.touch){var e,b=a.ui.mouse.prototype,c=b._mouseInit,d=b._mouseDestroy;b._touchStart=function(a){var b=this;!e&&b._mouseCapture(a.originalEvent.changedTouches[0])&&(e=!0,b._touchMoved=!1,f(a,"mouseover"),f(a,"mousemove"),f(a,"mousedown"))},b._touchMove=function(a){e&&(this._touchMoved=!0,f(a,"mousemove"))},b._touchEnd=function(a){e&&(f(a,"mouseup"),f(a,"mouseout"),this._touchMoved||f(a,"click"),e=!1)},b._mouseInit=function(){var b=this;b.element.bind({touchstart:a.proxy(b,"_touchStart"),touchmove:a.proxy(b,"_touchMove"),touchend:a.proxy(b,"_touchEnd")}),c.call(b)},b._mouseDestroy=function(){var b=this;b.element.unbind({touchstart:a.proxy(b,"_touchStart"),touchmove:a.proxy(b,"_touchMove"),touchend:a.proxy(b,"_touchEnd")}),d.call(b)}}}(jQuery);
 
-            if (a.support.touch = "ontouchend" in document, a.support.touch) {
-                var e, b = a.ui.mouse.prototype, c = b._mouseInit, d = b._mouseDestroy;
-                b._touchStart = function (a) {
-                    var b = this;
-                    !e && b._mouseCapture(a.originalEvent.changedTouches[0]) && (e = !0, b._touchMoved = !1, f(a, "mouseover"), f(a, "mousemove"), f(a, "mousedown"))
-                }, b._touchMove = function (a) {
-                    e && (this._touchMoved = !0, f(a, "mousemove"))
-                }, b._touchEnd = function (a) {
-                    e && (f(a, "mouseup"), f(a, "mouseout"), this._touchMoved || f(a, "click"), e = !1)
-                }, b._mouseInit = function () {
-                    var b = this;
-                    b.element.bind({
-                        touchstart: a.proxy(b, "_touchStart"),
-                        touchmove: a.proxy(b, "_touchMove"),
-                        touchend: a.proxy(b, "_touchEnd")
-                    }), c.call(b)
-                }, b._mouseDestroy = function () {
-                    var b = this;
-                    b.element.unbind({
-                        touchstart: a.proxy(b, "_touchStart"),
-                        touchmove: a.proxy(b, "_touchMove"),
-                        touchend: a.proxy(b, "_touchEnd")
-                    }), d.call(b)
-                }
-            }
-        }(jQuery);
-
-        function start_puzzle(x) {
+        function start_puzzle(x){
             $('#puzzle_solved').hide();
             $('#source_image').snapPuzzle({
                 rows: x, columns: x,
                 pile: '#pile',
                 containment: '#puzzle-containment',
-                onComplete: function () {
+                onComplete: function(){
                     $('#source_image').fadeOut(150).fadeIn();
-                    var source = "bravo.mp3"
-                    var audio = document.createElement("audio");
-                    audio.autoplay = true;
-                    audio.load()
-                    audio.addEventListener("load", function () {
-                        audio.play();
-                    }, true);
-                    audio.src = source;
-                    $('#puzzle_solved').show();
+                     var source = "bravo.mp3"
+                     var audio = document.createElement("audio");
+                     audio.autoplay = true;
+                     audio.load()
+                     audio.addEventListener("load", function() { 
+                         audio.play(); 
+                     }, true);
+                     audio.src = source;
+                     setTimeout(function(){ 
+                    document.getElementById("my_audio").play(); 
+}, 1000) 
+                     $('#puzzle_solved').show();
                 }
             });
         }
 
-        $(function () {
+        $(function(){
             $('#pile').height($('#source_image').height());
             start_puzzle(2);
 
-            $('.refresh').click(function () {
-                window.location.href = 'start.html';
+            $('.refresh').click(function(){
+               window.location.href = 'start.html';
             });
 
-            $(window).resize(function () {
+            $(window).resize(function(){
                 $('#pile').height($('#source_image').height());
                 $('#source_image').snapPuzzle('refresh');
             });

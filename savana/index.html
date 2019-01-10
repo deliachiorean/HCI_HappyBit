@@ -11,7 +11,7 @@
         }
 
         div {
-            padding-top: 17%;
+            padding-top: 15%;
         }
 
         .startImage:hover {
@@ -58,8 +58,14 @@
     </style>
 </head>
 <body>
-<!--to do inregistrare cu indicatie cand primesc de la andra fisieru-->
-<div><a data-grid="2"><img src="start.png" class="startImage" width="250" height="250" title="start" alt="start"
+<audio src="intro.mp3" autoplay="autoplay" loop="loop"></audio>
+<div><a data-grid="2"><img src="start.png" id="mybutton"  class="startImage" width="250" height="250" title="start" alt="start"
                            onclick="document.location='./start.html';return false;"></a></div>
+<script src="jq.js"></script>
+    <script>
+    $(document).ready(function() {
+      $('#mybutton').hide().delay(14000).fadeIn(2200);
+});
+    </script>
 </body>
 </html>

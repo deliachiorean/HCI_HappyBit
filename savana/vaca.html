@@ -69,10 +69,12 @@
 
         a {
             float: right;
+            padding-right: 20px;
         }
     </style>
 </head>
 <body>
+<audio src="next.mp3" id="my_audio" loop="loop"></audio> 
 <a data-grid="2"><img src="home.svg" width="50" height="50" title="home" alt="home"
                       onclick="document.location='./../index.html';return false;"></a>
 <h1>Scor: 1</h1>
@@ -153,6 +155,9 @@
                         audio.play();
                     }, true);
                     audio.src = source;
+                    setTimeout(function(){ 
+                    document.getElementById("my_audio").play(); 
+}, 1000) 
                     $('#puzzle_solved').show();
                 }
             });
